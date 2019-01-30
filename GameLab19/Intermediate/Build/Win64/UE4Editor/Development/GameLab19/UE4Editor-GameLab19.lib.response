@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-GameLab19.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Games\game-lab-2019\GameLab19\Intermediate\Build\Win64\GameLab19Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\Games\game-lab-2019\GameLab19\Intermediate\Build\Win64\UE4Editor\Development\GameLab19\GameLab19.cpp.obj"
+"D:\Games\game-lab-2019\GameLab19\Intermediate\Build\Win64\UE4Editor\Development\GameLab19\GameLab19GameModeBase.cpp.obj"
+"D:\Games\game-lab-2019\GameLab19\Intermediate\Build\Win64\UE4Editor\Development\GameLab19\GameLab19.init.gen.cpp.obj"
+"D:\Games\game-lab-2019\GameLab19\Intermediate\Build\Win64\UE4Editor\Development\GameLab19\GameLab19GameModeBase.gen.cpp.obj"
+"D:\Games\game-lab-2019\GameLab19\Intermediate\Build\Win64\UE4Editor\Development\GameLab19\PCLaunch.rc.res"
+/OUT:"D:\Games\game-lab-2019\GameLab19\Intermediate\Build\Win64\UE4Editor\Development\GameLab19\UE4Editor-GameLab19.lib"
