@@ -1,0 +1,3 @@
+D:\Games\game-lab-2019\GameLab19\Source\GameLab19\GameLab19.Build.cs
+D:\Games\game-lab-2019\GameLab19\Source\GameLab19.Target.cs
+D:\Games\game-lab-2019\GameLab19\Source\GameLab19Editor.Target.cs
