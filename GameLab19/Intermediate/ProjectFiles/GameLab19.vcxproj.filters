@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\GameLab19.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{1F54AAA4-BA40-4E07-B379-3013F23F90BC}</UniqueIdentifier>
+      <UniqueIdentifier>{13BD0A6A-B576-4A39-8006-97B2CE4DA82F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GameLab19.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{A123A348-DBDE-4D6A-964C-614B3B19E3D2}</UniqueIdentifier>
+      <UniqueIdentifier>{54EAC781-4998-42A5-B75E-E9756B9A509A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,8 +23,11 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\GameLab19">
-      <UniqueIdentifier>{94C19123-8AD5-496D-8C50-0E214836BC70}</UniqueIdentifier>
+      <UniqueIdentifier>{B8082343-DDA8-40F3-BEEC-505E04F4E1BA}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GameLab19\GameLab19.Build.cs">
       <Filter>Source\GameLab19</Filter>
