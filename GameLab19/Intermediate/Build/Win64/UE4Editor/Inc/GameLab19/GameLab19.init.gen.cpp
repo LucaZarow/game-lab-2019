@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeGameLab19_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/GameLab19",
 				PKG_CompiledIn | 0x00000000,
-				0x9B7DFC26,
-				0x39B62895,
+				0x5CE2D86A,
+				0x6C84C3DB,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};

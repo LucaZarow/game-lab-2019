@@ -24,10 +24,30 @@
 /wd4838
 /we4668
 /I .
-/I D:\Games\game-lab-2019\GameLab19\Intermediate\Build\Win64\UE4Editor\Inc\GameLab19
-/I D:\Games\game-lab-2019\GameLab19\Source
-/I D:\Games\game-lab-2019\GameLab19\Source\GameLab19
+/I E:\GitHub\game-lab\GameLab19\Source\GameLab19\Private
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
 /I Runtime
+/I Runtime\Engine\Classes
+/I Runtime\Engine\Public
+/I Runtime\Engine
+/I Runtime\Engine\Public\AI
+/I Runtime\Engine\Public\AI\Navigation
+/I Runtime\Engine\Public\Analytics
+/I Runtime\Engine\Public\Animation
+/I Runtime\Engine\Public\Curves
+/I Runtime\Engine\Public\EdGraph
+/I Runtime\Engine\Public\Internationalization
+/I Runtime\Engine\Public\Net
+/I Runtime\Engine\Public\PacketHandlers
+/I Runtime\Engine\Public\Performance
+/I Runtime\Engine\Public\Physics
+/I Runtime\Engine\Public\Physics\Experimental
+/I Runtime\Engine\Public\Physics\ImmediatePhysics
+/I Runtime\Engine\Public\ProfilingDebugging
+/I Runtime\Engine\Public\Rendering
+/I Runtime\Engine\Public\Slate
+/I Runtime\Engine\Public\Tests
+/I Runtime\Engine\Public\VisualLogger
 /I Runtime\Core\Public
 /I Runtime\Core
 /I Runtime\Core\Public\Algo
@@ -67,28 +87,6 @@
 /I Runtime\CoreUObject\Public\Serialization\Formatters
 /I Runtime\CoreUObject\Public\Templates
 /I Runtime\CoreUObject\Public\UObject
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
-/I Runtime\Engine\Classes
-/I Runtime\Engine\Public
-/I Runtime\Engine
-/I Runtime\Engine\Public\AI
-/I Runtime\Engine\Public\AI\Navigation
-/I Runtime\Engine\Public\Analytics
-/I Runtime\Engine\Public\Animation
-/I Runtime\Engine\Public\Curves
-/I Runtime\Engine\Public\EdGraph
-/I Runtime\Engine\Public\Internationalization
-/I Runtime\Engine\Public\Net
-/I Runtime\Engine\Public\PacketHandlers
-/I Runtime\Engine\Public\Performance
-/I Runtime\Engine\Public\Physics
-/I Runtime\Engine\Public\Physics\Experimental
-/I Runtime\Engine\Public\Physics\ImmediatePhysics
-/I Runtime\Engine\Public\ProfilingDebugging
-/I Runtime\Engine\Public\Rendering
-/I Runtime\Engine\Public\Slate
-/I Runtime\Engine\Public\Tests
-/I Runtime\Engine\Public\VisualLogger
 /I Runtime\ApplicationCore\Public
 /I Runtime\ApplicationCore
 /I Runtime\ApplicationCore\Public\GenericPlatform
@@ -415,17 +413,28 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
-/FI"D:\Games\game-lab-2019\GameLab19\Intermediate\Build\Win64\GameLab19Editor\Development\Engine\SharedPCH.Engine.h"
-/Yu"D:\Games\game-lab-2019\GameLab19\Intermediate\Build\Win64\GameLab19Editor\Development\Engine\SharedPCH.Engine.h"
-/Fp"D:\Games\game-lab-2019\GameLab19\Intermediate\Build\Win64\GameLab19Editor\Development\Engine\SharedPCH.Engine.h.pch"
-"D:\Games\game-lab-2019\GameLab19\Intermediate\Build\Win64\UE4Editor\Inc\GameLab19\GameLab19GameModeBase.gen.cpp"
-/FI"D:\Games\game-lab-2019\GameLab19\Intermediate\Build\Win64\UE4Editor\Development\GameLab19\Definitions.GameLab19.h"
-/Fo"D:\Games\game-lab-2019\GameLab19\Intermediate\Build\Win64\UE4Editor\Development\GameLab19\GameLab19GameModeBase.gen.cpp.obj"
+/I E:\GitHub\game-lab\GameLab19\Intermediate\Build\Win64\UE4Editor\Inc\GameLab19
+/I E:\GitHub\game-lab\GameLab19\Source
+/I E:\GitHub\game-lab\GameLab19\Source\GameLab19\Public
+/I E:\GitHub\game-lab\GameLab19\Source\GameLab19
+/I Runtime\Networking\Public
+/I Runtime\Networking
+/I Runtime\Networking\Public\Common
+/I Runtime\Networking\Public\Interfaces
+/I Runtime\Networking\Public\Interfaces\IPv4
+/I Runtime\Networking\Public\Interfaces\Steam
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\INCLUDE"
+/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"
+/FI"E:\GitHub\game-lab\GameLab19\Intermediate\Build\Win64\GameLab19Editor\Development\Engine\SharedPCH.Engine.h"
+/Yu"E:\GitHub\game-lab\GameLab19\Intermediate\Build\Win64\GameLab19Editor\Development\Engine\SharedPCH.Engine.h"
+/Fp"E:\GitHub\game-lab\GameLab19\Intermediate\Build\Win64\GameLab19Editor\Development\Engine\SharedPCH.Engine.h.pch"
+"E:\GitHub\game-lab\GameLab19\Intermediate\Build\Win64\UE4Editor\Inc\GameLab19\GameLab19GameModeBase.gen.cpp"
+/FI"E:\GitHub\game-lab\GameLab19\Intermediate\Build\Win64\UE4Editor\Development\GameLab19\Definitions.GameLab19.h"
+/Fo"E:\GitHub\game-lab\GameLab19\Intermediate\Build\Win64\UE4Editor\Development\GameLab19\GameLab19GameModeBase.gen.cpp.obj"
 /TP
 /GR-
 /W4

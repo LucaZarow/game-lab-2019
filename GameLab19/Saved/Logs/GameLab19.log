@@ -1,0 +1,1003 @@
+﻿Log file open, 02/07/19 09:16:05
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: GameLab19
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 2.932521
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.152s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.21-CL-4753647
+LogInit: Engine Version: 4.21.2-4753647+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Net CL: 4541578
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz, GPU: NVIDIA GeForce GTX 1070 Ti
+LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Program Files/Epic Games/UE_4.21/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 22
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.02.07-14.16.06:402][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.02.07-14.16.06:402][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.02.07-14.16.06:403][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/GitHub/game-lab/GameLab19/Saved/Config/Windows/Engine.ini]
+[2019.02.07-14.16.06:403][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.02.07-14.16.06:403][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/GitHub/game-lab/GameLab19/Saved/Config/Windows/Engine.ini]
+[2019.02.07-14.16.06:403][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/GitHub/game-lab/GameLab19/Saved/Config/Windows/Engine.ini]
+[2019.02.07-14.16.06:403][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.02.07-14.16.06:403][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.02.07-14.16.06:403][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.02.07-14.16.06:403][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.02.07-14.16.06:403][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.02.07-14.16.06:403][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.02.07-14.16.06:403][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.02.07-14.16.06:403][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.02.07-14.16.06:403][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.02.07-14.16.06:403][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.02.07-14.16.06:403][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.02.07-14.16.06:403][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.02.07-14.16.06:403][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.02.07-14.16.06:403][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/GitHub/game-lab/GameLab19/Saved/Config/Windows/Engine.ini]
+[2019.02.07-14.16.06:403][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.02.07-14.16.06:403][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.02.07-14.16.06:403][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.02.07-14.16.06:403][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.02.07-14.16.06:403][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.02.07-14.16.06:403][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.02.07-14.16.06:403][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.02.07-14.16.06:403][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.02.07-14.16.06:403][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.02.07-14.16.06:403][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.02.07-14.16.06:403][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.02.07-14.16.06:403][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.02.07-14.16.06:403][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.02.07-14.16.06:403][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.02.07-14.16.06:403][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/GitHub/game-lab/GameLab19/Saved/Config/Windows/Engine.ini]
+[2019.02.07-14.16.06:403][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/GitHub/game-lab/GameLab19/Saved/Config/Windows/Engine.ini]
+[2019.02.07-14.16.06:434][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/GitHub/game-lab/GameLab19/Saved/Config/Windows/Scalability.ini]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/GitHub/game-lab/GameLab19/Saved/Config/Windows/Scalability.ini]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/GitHub/game-lab/GameLab19/Saved/Config/Windows/Scalability.ini]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/GitHub/game-lab/GameLab19/Saved/Config/Windows/Scalability.ini]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/GitHub/game-lab/GameLab19/Saved/Config/Windows/Scalability.ini]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/GitHub/game-lab/GameLab19/Saved/Config/Windows/Scalability.ini]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/GitHub/game-lab/GameLab19/Saved/Config/Windows/Scalability.ini]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.02.07-14.16.06:434][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.02.07-14.16.06:437][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.07-14.16.06:437][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.02.07-14.16.06:465][  0]LogHAL: Display: Platform has ~ 16 GB [17119379456 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.02.07-14.16.06:468][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.02.07-14.16.06:468][  0]LogInit: Going up to parent DeviceProfile []
+[2019.02.07-14.16.06:469][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/GitHub/game-lab/GameLab19/Saved/Config/Windows/Scalability.ini]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/GitHub/game-lab/GameLab19/Saved/Config/Windows/Scalability.ini]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/GitHub/game-lab/GameLab19/Saved/Config/Windows/Scalability.ini]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/GitHub/game-lab/GameLab19/Saved/Config/Windows/Scalability.ini]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/GitHub/game-lab/GameLab19/Saved/Config/Windows/Scalability.ini]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/GitHub/game-lab/GameLab19/Saved/Config/Windows/Scalability.ini]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/GitHub/game-lab/GameLab19/Saved/Config/Windows/Scalability.ini]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.02.07-14.16.06:469][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.02.07-14.16.06:470][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.02.07-14.16.06:470][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/GitHub/game-lab/GameLab19/Saved/Config/Windows/Engine.ini]
+[2019.02.07-14.16.06:481][  0]LogInit: Computer: DESKTOP-YIHE
+[2019.02.07-14.16.06:481][  0]LogInit: User: zhang
+[2019.02.07-14.16.06:481][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.02.07-14.16.06:481][  0]LogInit: High frequency timer resolution =3.117188 MHz
+[2019.02.07-14.16.06:482][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.02.07-14.16.06:482][  0]LogMemory: Platform Memory Stats for Windows
+[2019.02.07-14.16.06:482][  0]LogMemory: Process Physical Memory: 104.40 MB used, 104.40 MB peak
+[2019.02.07-14.16.06:482][  0]LogMemory: Process Virtual Memory: 94.38 MB used, 94.38 MB peak
+[2019.02.07-14.16.06:482][  0]LogMemory: Physical Memory: 4203.52 MB used,  12122.79 MB free, 16326.31 MB total
+[2019.02.07-14.16.06:482][  0]LogMemory: Virtual Memory: 4673.09 MB used,  134213056.00 MB free, 134217728.00 MB total
+[2019.02.07-14.16.06:938][  0]LogInit: Overriding language with editor language configuration option (en).
+[2019.02.07-14.16.06:938][  0]LogInit: Overriding locale with editor locale configuration option (en-CA).
+[2019.02.07-14.16.07:555][  0]LogStreaming: Display: Took  0.603s to InitEngineTextLocalization.
+[2019.02.07-14.16.07:563][  0]LogInit: Setting process to per monitor DPI aware
+[2019.02.07-14.16.07:936][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.02.07-14.16.07:936][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.02.07-14.16.08:444][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.07-14.16.08:444][  0]LogD3D11RHI: D3D11 adapters:
+[2019.02.07-14.16.08:518][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070 Ti' (Feature Level 11_0)
+[2019.02.07-14.16.08:518][  0]LogD3D11RHI:       8080/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.02.07-14.16.08:520][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.02.07-14.16.08:520][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.02.07-14.16.08:520][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.02.07-14.16.08:526][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.02.07-14.16.08:526][  0]LogD3D11RHI:     GPU DeviceId: 0x1b82 (for the marketing name, search the web for "GPU Device Id")
+[2019.02.07-14.16.08:526][  0]LogWindows: EnumDisplayDevices:
+[2019.02.07-14.16.08:526][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070 Ti' (P:1 D:1)
+[2019.02.07-14.16.08:526][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:0)
+[2019.02.07-14.16.08:527][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:0)
+[2019.02.07-14.16.08:527][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:0)
+[2019.02.07-14.16.08:527][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.02.07-14.16.08:527][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070 Ti
+[2019.02.07-14.16.08:527][  0]LogD3D11RHI:   Driver Version: 417.35 (internal:25.21.14.1735, unified:417.35)
+[2019.02.07-14.16.08:527][  0]LogD3D11RHI:      Driver Date: 12-11-2018
+[2019.02.07-14.16.08:528][  0]LogRHI: Texture pool is 5656 MB (70% of 8080 MB)
+[2019.02.07-14.16.08:591][  0]LogD3D11RHI: Async texture creation enabled
+[2019.02.07-14.16.08:767][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.02.07-14.16.09:209][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.02.07-14.16.09:226][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.02.07-14.16.09:237][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.02.07-14.16.09:254][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.02.07-14.16.09:294][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.02.07-14.16.09:316][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.02.07-14.16.09:337][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.02.07-14.16.09:354][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.02.07-14.16.09:360][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.02.07-14.16.09:457][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.07-14.16.09:457][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.07-14.16.09:457][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.07-14.16.09:457][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.07-14.16.09:457][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.07-14.16.09:457][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.07-14.16.09:457][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.07-14.16.09:457][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.07-14.16.09:457][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.07-14.16.09:457][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.07-14.16.09:457][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.07-14.16.09:457][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.07-14.16.09:457][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.07-14.16.09:457][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.07-14.16.09:457][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.07-14.16.09:457][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.07-14.16.09:457][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.07-14.16.09:457][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.07-14.16.09:475][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.02.07-14.16.09:558][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.07-14.16.09:558][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.07-14.16.09:576][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.07-14.16.09:576][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.07-14.16.09:595][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.02.07-14.16.09:617][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.02.07-14.16.09:628][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.02.07-14.16.09:641][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.02.07-14.16.09:687][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.02.07-14.16.09:687][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.02.07-14.16.09:687][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.02.07-14.16.10:038][  0]LogShaderCompilers: Guid format shader working directory is 18 characters bigger than the processId version (E:/GitHub/game-lab/GameLab19/Intermediate/Shaders/WorkingDirectory/4592/).
+[2019.02.07-14.16.10:039][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/zhang/AppData/Local/Temp/UnrealShaderWorkingDir/92E870884A77839AF0936386C0C308F9/'.
+[2019.02.07-14.16.10:052][  0]LogXGEController: Cleaning working directory: C:/Users/zhang/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.02.07-14.16.10:053][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.02.07-14.16.10:053][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.02.07-14.16.10:053][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.02.07-14.16.11:155][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.02.07-14.16.11:253][  0]LogDerivedDataCache: Loaded boot cache 0.09s 71MB C:/Users/zhang/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.02.07-14.16.11:254][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/zhang/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.02.07-14.16.11:254][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/GitHub/game-lab/GameLab19/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.02.07-14.16.11:254][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.02.07-14.16.11:254][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/GitHub/game-lab/GameLab19/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.07-14.16.11:254][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.02.07-14.16.11:279][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.02.07-14.16.11:279][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.07-14.16.11:279][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.02.07-14.16.11:331][  0]LogDerivedDataCache: Using Local data cache path C:/Users/zhang/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.02.07-14.16.11:331][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.02.07-14.16.11:331][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.02.07-14.16.11:357][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.02.07-14.16.11:393][  0]LogSlate: Using FreeType 2.6.0
+[2019.02.07-14.16.11:449][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.02.07-14.16.11:851][  0]LogAssetRegistry: FAssetRegistry took 0.0338 seconds to start up
+[2019.02.07-14.16.14:518][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.07-14.16.15:603][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.02.07-14.16.15:682][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.02.07-14.16.15:683][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.02.07-14.16.15:683][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.02.07-14.16.15:683][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.02.07-14.16.15:875][  0]LogNetVersion: GameLab19 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3668780234)
+[2019.02.07-14.16.18:467][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.060648 seconds
+[2019.02.07-14.16.18:476][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.02.07-14.16.18:476][  0]LogUObjectAllocator: 6914664 out of 0 bytes used by permanent object pool.
+[2019.02.07-14.16.18:476][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.02.07-14.16.25:994][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.02.07-14.16.26:018][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.02.07-14.16.27:413][  0]SourceControl: Source control is disabled
+[2019.02.07-14.16.27:413][  0]SourceControl: Source control is disabled
+[2019.02.07-14.16.27:469][  0]SourceControl: Source control is disabled
+[2019.02.07-14.16.27:481][  0]SourceControl: Source control is disabled
+[2019.02.07-14.16.28:358][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.02.07-14.16.28:484][  0]LogOcInput: OculusInput pre-init called
+[2019.02.07-14.16.29:168][  0]LogEngine: Initializing Engine...
+[2019.02.07-14.16.29:184][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.07-14.16.29:188][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.07-14.16.29:188][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.07-14.16.29:188][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.07-14.16.29:188][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.07-14.16.29:753][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.02.07-14.16.29:991][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.02.07-14.16.30:055][  0]LogInit: XAudio2 using 'LG IPS FULLHD (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.07-14.16.30:191][  0]LogInit: FAudioDevice initialized.
+[2019.02.07-14.16.30:191][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.02.07-14.16.30:235][  0]LogDerivedDataCache: Saved boot cache 0.04s 71MB C:/Users/zhang/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.02.07-14.16.30:260][  0]LogInit: Texture streaming: Enabled
+[2019.02.07-14.16.30:297][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.02.07-14.16.30:741][  0]LogInit: Transaction tracking system initialized
+[2019.02.07-14.16.31:440][  0]BlueprintLog: New page: Editor Load
+[2019.02.07-14.16.32:739][  0]LocalizationService: Localization service is disabled
+[2019.02.07-14.16.35:826][  0]LogFileCache: Scanning file cache for directory 'E:/GitHub/game-lab/GameLab19/Content/' took 0.01s
+[2019.02.07-14.16.35:826][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.02.07-14.16.35:826][  0]LogCook: Display: Mobile HDR setting 1
+[2019.02.07-14.16.35:826][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.02.07-14.16.35:826][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.07-14.16.35:826][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.07-14.16.35:826][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.07-14.16.35:826][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.07-14.16.39:372][  0]SourceControl: Source control is disabled
+[2019.02.07-14.16.39:479][  0]Cmd: MAP LOAD FILE="E:/GitHub/game-lab/GameLab19/Content/TestScene1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.07-14.16.39:479][  0]LogEditorServer: Warning: Can't find file 'E:/GitHub/game-lab/GameLab19/Content/TestScene1.umap'
+[2019.02.07-14.16.39:479][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.07-14.16.39:503][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 23.994ms to complete.
+[2019.02.07-14.16.39:503][  0]LogFileHelpers: Loading map 'TestScene1' took 0.115
+[2019.02.07-14.16.42:166][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.07-14.16.42:210][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.07-14.16.42:215][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.07-14.16.42:219][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.07-14.16.42:421][  0]LogCollectionManager: Loaded 0 collections in 0.000672 seconds
+[2019.02.07-14.16.42:629][  0]LogFileCache: Scanning file cache for directory 'E:/GitHub/game-lab/GameLab19/Saved/Collections/' took 0.01s
+[2019.02.07-14.16.42:629][  0]LogFileCache: Scanning file cache for directory 'E:/GitHub/game-lab/GameLab19/Content/Developers/zhang/Collections/' took 0.01s
+[2019.02.07-14.16.42:629][  0]LogFileCache: Scanning file cache for directory 'E:/GitHub/game-lab/GameLab19/Content/Collections/' took 0.01s
+[2019.02.07-14.16.42:629][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.02.07-14.16.42:684][  0]LogContentBrowser: Native class hierarchy populated in 0.0527 seconds. Added 2653 classes and 624 folders.
+[2019.02.07-14.16.42:788][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.02.07-14.16.42:857][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.07-14.16.42:885][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.07-14.16.42:907][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.07-14.16.42:930][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.07-14.16.42:944][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.07-14.16.42:959][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.07-14.16.42:983][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.07-14.16.43:005][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.07-14.16.43:022][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.07-14.16.43:032][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.07-14.16.43:077][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.07-14.16.43:103][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.07-14.16.43:109][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.07-14.16.43:131][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.07-14.16.43:161][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.07-14.16.43:173][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.07-14.16.43:185][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.07-14.16.43:198][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.07-14.16.43:205][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.07-14.16.43:227][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.07-14.16.43:240][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.07-14.16.43:246][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.07-14.16.43:260][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.07-14.16.43:270][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.07-14.16.43:289][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.07-14.16.43:302][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.07-14.16.44:339][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.02.07-14.16.45:221][  0]LogSlate: Took 0.004140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.02.07-14.16.45:333][  0]LogSlate: Took 0.034272 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.02.07-14.16.45:396][  0]LogSlate: Took 0.012648 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.02.07-14.16.45:404][  0]LogSlate: Took 0.008127 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.02.07-14.16.46:142][  0]LogRenderer: Reallocating scene render targets to support 1136x648 Format 10 NumSamples 1 (Frame:1).
+[2019.02.07-14.16.46:631][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.02.07-14.16.46:631][  0]LogLoad: (Engine Initialization) Total time: 47.02 seconds
+[2019.02.07-14.16.46:631][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.02.07-14.16.46:782][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.02.07-14.16.47:095][  1]LogAssetRegistry: Asset discovery search completed in 35.2665 seconds
+[2019.02.07-14.16.47:099][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.02.07-14.16.47:099][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000147 seconds (updated 0 objects)
+[2019.02.07-14.16.47:664][ 10]LogSlate: Took 0.018950 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.07-14.16.57:129][138]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.07-14.17.09:567][630]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.07-14.17.10:077][689]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.07-14.17.10:097][689]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.07-14.17.10:125][689]PIE: New page: PIE session: Untitled_0 (Feb 7, 2019, 4:17:10 AM)
+[2019.02.07-14.17.10:161][689]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_0
+[2019.02.07-14.17.10:171][689]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010977s)
+[2019.02.07-14.17.10:172][689]LogAIModule: Creating AISystem for world Untitled
+[2019.02.07-14.17.10:172][689]LogPlayLevel: PIE: World Init took: (0.000485s)
+[2019.02.07-14.17.10:172][689]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_0.Untitled to /Temp/UEDPIE_0_Untitled_0.Untitled (0.012287s)
+[2019.02.07-14.17.10:247][689]LogInit: XAudio2 using 'LG IPS FULLHD (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.07-14.17.10:256][689]LogInit: FAudioDevice initialized.
+[2019.02.07-14.17.10:577][689]LogLoad: Game class is 'B_GameMode_C'
+[2019.02.07-14.17.10:631][689]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_0.Untitled up for play (max tick rate 0) at 2019.02.07-09.17.10
+[2019.02.07-14.17.10:631][689]LogWorld: Bringing up level for play took: 0.000489
+[2019.02.07-14.17.10:709][689]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2019.02.07-14.17.10:760][689]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_0 0.64
+[2019.02.07-14.17.14:350][100]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.07-14.17.14:415][100]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.07-14.17.14:444][100]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.07-14.17.14:464][101]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2019.02.07-14.17.15:872][270]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.07-14.17.15:894][270]LogSlate: Took 0.000224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.07-14.17.18:729][575]LogLinker: Warning: Can't find file '/Game/Maps/Test_Map_Sam_BuiltData'
+[2019.02.07-14.17.18:730][575]LogLinker: Warning: Can't find file for asset '/Game/Maps/Test_Map_Sam_BuiltData' while loading E:/GitHub/game-lab/GameLab19/Content/Maps/Test_Map_Sam.umap.
+[2019.02.07-14.17.18:730][575]LoadErrors: Error: /Game/Maps/Test_Map_Sam : Can't find file for asset. /Game/Maps/Test_Map_Sam_BuiltData
+[2019.02.07-14.17.18:752][575]LogLinker: Warning: Can't find file '/Game/Maps/Test_Map_Sam_BuiltData'
+[2019.02.07-14.17.18:752][575]LogLinker: Warning: Can't find file for asset '/Game/Maps/Test_Map_Sam_BuiltData' while loading E:/GitHub/game-lab/GameLab19/Content/Maps/Test_Map_Sam.umap.
+[2019.02.07-14.17.18:753][575]LogLinker: Warning: Can't find file '/Game/Maps/Test_Map_Sam_BuiltData'
+[2019.02.07-14.17.18:753][575]LogLinker: Warning: Can't find file for asset '/Game/Maps/Test_Map_Sam_BuiltData' while loading NULL.
+[2019.02.07-14.17.18:754][575]LogLinker: Warning: Can't find file '/Game/Maps/Test_Map_Sam_BuiltData'
+[2019.02.07-14.17.18:754][575]LogLinker: Warning: Can't find file for asset '/Game/Maps/Test_Map_Sam_BuiltData' while loading NULL.
+[2019.02.07-14.17.18:767][575]LogLinker: Warning: Can't find file '/Game/Maps/Test_Map_Sam_BuiltData'
+[2019.02.07-14.17.18:768][575]LoadErrors: Failed to load /Game/Maps/Test_Map_Sam_BuiltData.Test_Map_Sam_BuiltData Referenced by PersistentLevel
+[2019.02.07-14.17.18:768][575]LogLinker: Warning: Can't find file for asset '/Game/Maps/Test_Map_Sam_BuiltData' while loading NULL.
+[2019.02.07-14.17.18:872][575]LogAIModule: Creating AISystem for world Test_Map_Sam
+[2019.02.07-14.17.18:931][575]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/Test_Map_Sam.Test_Map_Sam
+[2019.02.07-14.17.18:979][575]Cmd: MAP LOAD FILE="E:/GitHub/game-lab/GameLab19/Content/Maps/Test_Map_Sam.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.07-14.17.18:979][575]LightingResults: New page: Lighting Build
+[2019.02.07-14.17.18:988][575]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0004 seconds. Added 5 classes and 0 folders.
+[2019.02.07-14.17.18:989][575]LoadErrors: New page: Loading map: Test_Map_Sam.umap
+[2019.02.07-14.17.18:989][575]MapCheck: New page: Map Check
+[2019.02.07-14.17.18:989][575]LightingResults: New page: Lighting Build
+[2019.02.07-14.17.19:046][575]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.07-14.17.19:069][575]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.07-14.17.19:070][575]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.163ms to complete.
+[2019.02.07-14.17.19:070][575]LogFileHelpers: Loading map 'Test_Map_Sam' took 0.098
+[2019.02.07-14.17.20:495][719]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.07-14.17.20:499][719]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam' with GeneratedClass '/Game/Maps/Test_Map_Sam.Test_Map_Sam_C' with ClassGeneratedBy '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam'
+[2019.02.07-14.17.20:499][719]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.07-14.17.20:499][719]PIE: New page: PIE session: Test_Map_Sam (Feb 7, 2019, 4:17:20 AM)
+[2019.02.07-14.17.20:499][719]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Map_Sam
+[2019.02.07-14.17.20:502][719]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002446s)
+[2019.02.07-14.17.20:502][719]LogAIModule: Creating AISystem for world Test_Map_Sam
+[2019.02.07-14.17.20:503][719]LogPlayLevel: PIE: World Init took: (0.000543s)
+[2019.02.07-14.17.20:503][719]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Map_Sam.Test_Map_Sam to /Game/Maps/UEDPIE_0_Test_Map_Sam.Test_Map_Sam (0.003534s)
+[2019.02.07-14.17.20:539][719]LogInit: XAudio2 using 'LG IPS FULLHD (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.07-14.17.20:548][719]LogInit: FAudioDevice initialized.
+[2019.02.07-14.17.20:580][719]LogLoad: Game class is 'B_GameMode_C'
+[2019.02.07-14.17.20:581][719]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Map_Sam.Test_Map_Sam up for play (max tick rate 0) at 2019.02.07-09.17.20
+[2019.02.07-14.17.20:606][719]LogWorld: Bringing up level for play took: 0.024945
+[2019.02.07-14.17.20:636][719]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test_Map_Sam 0.515
+[2019.02.07-14.17.20:636][719]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam' with GeneratedClass '/Game/Maps/Test_Map_Sam.Test_Map_Sam_C' with ClassGeneratedBy '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam'
+[2019.02.07-14.17.24:744][210]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam' with GeneratedClass '/Game/Maps/Test_Map_Sam.Test_Map_Sam_C' with ClassGeneratedBy '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam'
+[2019.02.07-14.17.24:745][210]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.07-14.17.24:773][210]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.07-14.17.24:773][210]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam' with GeneratedClass '/Game/Maps/Test_Map_Sam.Test_Map_Sam_C' with ClassGeneratedBy '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam'
+[2019.02.07-14.17.24:807][210]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.07-14.17.24:844][214]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2019.02.07-14.17.27:528][535]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.07-14.17.27:603][544]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.07-14.17.27:606][544]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam' with GeneratedClass '/Game/Maps/Test_Map_Sam.Test_Map_Sam_C' with ClassGeneratedBy '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam'
+[2019.02.07-14.17.27:607][544]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.07-14.17.27:607][544]PIE: New page: PIE session: Test_Map_Sam (Feb 7, 2019, 4:17:27 AM)
+[2019.02.07-14.17.27:607][544]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Map_Sam
+[2019.02.07-14.17.27:609][544]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002148s)
+[2019.02.07-14.17.27:610][544]LogAIModule: Creating AISystem for world Test_Map_Sam
+[2019.02.07-14.17.27:610][544]LogPlayLevel: PIE: World Init took: (0.000673s)
+[2019.02.07-14.17.27:610][544]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Map_Sam.Test_Map_Sam to /Game/Maps/UEDPIE_0_Test_Map_Sam.Test_Map_Sam (0.003213s)
+[2019.02.07-14.17.27:646][544]LogInit: XAudio2 using 'LG IPS FULLHD (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.07-14.17.27:656][544]LogInit: FAudioDevice initialized.
+[2019.02.07-14.17.27:683][544]LogLoad: Game class is 'B_GameMode_C'
+[2019.02.07-14.17.27:684][544]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Map_Sam.Test_Map_Sam up for play (max tick rate 0) at 2019.02.07-09.17.27
+[2019.02.07-14.17.27:685][544]LogWorld: Bringing up level for play took: 0.000734
+[2019.02.07-14.17.27:697][544]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test_Map_Sam -0.424
+[2019.02.07-14.17.27:697][544]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam' with GeneratedClass '/Game/Maps/Test_Map_Sam.Test_Map_Sam_C' with ClassGeneratedBy '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam'
+[2019.02.07-14.17.39:768][907]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam' with GeneratedClass '/Game/Maps/Test_Map_Sam.Test_Map_Sam_C' with ClassGeneratedBy '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam'
+[2019.02.07-14.17.39:768][907]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.07-14.17.39:799][907]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.07-14.17.39:799][907]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam' with GeneratedClass '/Game/Maps/Test_Map_Sam.Test_Map_Sam_C' with ClassGeneratedBy '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam'
+[2019.02.07-14.17.39:821][907]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.07-14.17.39:871][913]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.02.07-14.17.41:295][ 83]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_Player.BP_Player
+[2019.02.07-14.17.41:987][ 83]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 117 classes and 0 folders.
+[2019.02.07-14.17.42:884][ 83]LogSlate: Took 0.012387 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.02.07-14.17.43:028][ 84]LogSlate: Took 0.009330 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.02.07-14.18.02:005][339]LogSlate: Window 'BP_Player' being destroyed
+[2019.02.07-14.18.02:009][339]LogSlate: Window 'BP_Player' being destroyed
+[2019.02.07-14.18.03:051][456]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.07-14.18.03:056][456]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam' with GeneratedClass '/Game/Maps/Test_Map_Sam.Test_Map_Sam_C' with ClassGeneratedBy '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam'
+[2019.02.07-14.18.03:056][456]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.07-14.18.03:056][456]PIE: New page: PIE session: Test_Map_Sam (Feb 7, 2019, 4:18:03 AM)
+[2019.02.07-14.18.03:057][456]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Map_Sam
+[2019.02.07-14.18.03:059][456]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001914s)
+[2019.02.07-14.18.03:059][456]LogAIModule: Creating AISystem for world Test_Map_Sam
+[2019.02.07-14.18.03:059][456]LogPlayLevel: PIE: World Init took: (0.000678s)
+[2019.02.07-14.18.03:060][456]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Map_Sam.Test_Map_Sam to /Game/Maps/UEDPIE_0_Test_Map_Sam.Test_Map_Sam (0.002923s)
+[2019.02.07-14.18.03:107][456]LogInit: XAudio2 using 'LG IPS FULLHD (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.07-14.18.03:117][456]LogInit: FAudioDevice initialized.
+[2019.02.07-14.18.03:144][456]LogLoad: Game class is 'B_GameMode_C'
+[2019.02.07-14.18.03:145][456]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Map_Sam.Test_Map_Sam up for play (max tick rate 0) at 2019.02.07-09.18.03
+[2019.02.07-14.18.03:145][456]LogWorld: Bringing up level for play took: 0.000729
+[2019.02.07-14.18.03:158][456]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test_Map_Sam 1.038
+[2019.02.07-14.18.03:158][456]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam' with GeneratedClass '/Game/Maps/Test_Map_Sam.Test_Map_Sam_C' with ClassGeneratedBy '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam'
+[2019.02.07-14.18.14:988][874]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam' with GeneratedClass '/Game/Maps/Test_Map_Sam.Test_Map_Sam_C' with ClassGeneratedBy '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam'
+[2019.02.07-14.18.14:989][874]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.07-14.18.15:023][874]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.07-14.18.15:023][874]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam' with GeneratedClass '/Game/Maps/Test_Map_Sam.Test_Map_Sam_C' with ClassGeneratedBy '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam'
+[2019.02.07-14.18.15:048][874]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.07-14.18.15:094][879]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.02.07-14.18.18:503][288]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.07-14.19.43:299][614]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.02.07-14.19.43:299][614]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.02.07-14.20.04:465][999]Running D:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="E:/GitHub/game-lab/GameLab19/GameLab19.uproject" -game -rocket -progress
+[2019.02.07-14.20.04:820][999]Discovering modules, targets and source code for project...
+[2019.02.07-14.20.06:128][999]Binding IntelliSense data...
+[2019.02.07-14.20.08:041][999]Binding IntelliSense data... 100%
+[2019.02.07-14.20.08:142][999]Writing project files...
+[2019.02.07-14.20.13:075][999]Writing project files... 100%
+[2019.02.07-14.20.13:184][999]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2019.02.07-14.20.13:198][999]Candidate modules for hot reload:
+[2019.02.07-14.20.13:198][999]  GameLab19
+[2019.02.07-14.20.13:198][999]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GameLab19,4288 Win64 Development -TargetType=Editor -Project="E:/GitHub/game-lab/GameLab19/GameLab19.uproject" -canskiplink "E:/GitHub/game-lab/GameLab19/GameLab19.uproject" ]
+[2019.02.07-14.20.26:011][999]CompilerResultsLog: New page: Compilation - Feb 7, 2019, 4:20:26 AM
+[2019.02.07-14.20.26:011][999]CompilerResultsLog: Performing full C++ include scan (hot reloading a new target)
+[2019.02.07-14.20.26:011][999]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\GitHub\game-lab).
+[2019.02.07-14.20.26:011][999]CompilerResultsLog: Creating makefile for hot reloading GameLab19Editor (no existing makefile)
+[2019.02.07-14.20.26:012][999]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.07-14.20.26:012][999]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.02.07-14.20.26:012][999]CompilerResultsLog: Parsing headers for GameLab19Editor
+[2019.02.07-14.20.26:012][999]CompilerResultsLog:   Running UnrealHeaderTool "E:\GitHub\game-lab\GameLab19\GameLab19.uproject" "E:\GitHub\game-lab\GameLab19\Intermediate\Build\Win64\GameLab19Editor\Development\GameLab19Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.02.07-14.20.26:012][999]CompilerResultsLog: Reflection code generated for GameLab19Editor in 7.3437736 seconds
+[2019.02.07-14.20.26:013][999]CompilerResultsLog: Building 8 actions with 12 processes...
+[2019.02.07-14.20.26:013][999]CompilerResultsLog:   [1/8] GameLab19.init.gen.cpp
+[2019.02.07-14.20.26:013][999]CompilerResultsLog:   [2/8] GameLab19.cpp
+[2019.02.07-14.20.26:013][999]CompilerResultsLog:   [3/8] Twitch.cpp
+[2019.02.07-14.20.26:013][999]CompilerResultsLog:   [4/8] GameLab19GameModeBase.cpp
+[2019.02.07-14.20.26:013][999]CompilerResultsLog:   [5/8] Twitch.gen.cpp
+[2019.02.07-14.20.26:013][999]CompilerResultsLog:   [6/8] GameLab19GameModeBase.gen.cpp
+[2019.02.07-14.20.26:013][999]CompilerResultsLog:   [7/8] UE4Editor-GameLab19-4288.lib
+[2019.02.07-14.20.26:013][999]CompilerResultsLog:     ???ڴ????? E:\GitHub\game-lab\GameLab19\Intermediate\Build\Win64\UE4Editor\Development\GameLab19\UE4Editor-GameLab19-4288.lib ?Ͷ??? E:\GitHub\game-lab\GameLab19\Intermediate\Build\Win64\UE4Editor\Development\GameLab19\UE4Editor-GameLab19-4288.exp
+[2019.02.07-14.20.26:040][999]LogSlate: Took 0.026213 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NotoNaskhArabicUI-Regular.ttf' (144K)
+[2019.02.07-14.20.26:089][999]LogSlate: Took 0.035703 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2019.02.07-14.20.26:128][999]LogSlate: Took 0.038040 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2019.02.07-14.20.26:129][999]CompilerResultsLog:   [8/8] UE4Editor-GameLab19-4288.dll
+[2019.02.07-14.20.26:129][999]CompilerResultsLog:     ???ڴ????? E:\GitHub\game-lab\GameLab19\Intermediate\Build\Win64\UE4Editor\Development\GameLab19\UE4Editor-GameLab19-4288.suppressed.lib ?Ͷ??? E:\GitHub\game-lab\GameLab19\Intermediate\Build\Win64\UE4Editor\Development\GameLab19\UE4Editor-GameLab19-4288.suppressed.exp
+[2019.02.07-14.20.26:129][999]CompilerResultsLog: Total build time: 12.58 seconds (Parallel executor: 1.26 seconds)
+[2019.02.07-14.20.26:129][999]LogMainFrame: MainFrame: Module compiling took 12.945 seconds
+[2019.02.07-14.20.26:153][999]LogClass: Could not find existing class Twitch in package /Script/GameLab19 for HotReload, assuming new class
+[2019.02.07-14.20.26:155][999]LogContentBrowser: Native class hierarchy updated for 'GameLab19' in 0.0004 seconds. Added 2 classes and 3 folders.
+[2019.02.07-14.20.26:157][999]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.02.07-14.20.26:551][999]LogContentBrowser: Native class hierarchy populated in 0.0064 seconds. Added 2654 classes and 625 folders.
+[2019.02.07-14.20.26:556][999]Display: HotReload took 13.4s.
+[2019.02.07-14.20.26:557][999]Warning: HotReload operation took 13.4s.
+[2019.02.07-14.20.26:582][999]LogSlate: Window 'Add C++ Class' being destroyed
+[2019.02.07-14.20.26:587][999]LogHotReload: New module detected: UE4Editor-GameLab19-4288.dll
+[2019.02.07-14.20.26:635][  0]LogHotReload: Starting Hot-Reload from IDE
+[2019.02.07-14.20.26:704][  0]LogContentBrowser: Native class hierarchy updated for 'GameLab19' in 0.0004 seconds. Added 2 classes and 3 folders.
+[2019.02.07-14.20.26:707][  0]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.02.07-14.20.26:941][  0]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 2654 classes and 625 folders.
+[2019.02.07-14.20.26:943][  0]Display: HotReload took  0.3s.
+[2019.02.07-14.23.03:283][ 18]LogHotReload: New module detected: UE4Editor-GameLab19-2324.dll
+[2019.02.07-14.23.09:578][215]Candidate modules for hot reload:
+[2019.02.07-14.23.09:578][215]  GameLab19
+[2019.02.07-14.23.09:578][215]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GameLab19,762 Win64 Development -TargetType=Editor -Project="E:/GitHub/game-lab/GameLab19/GameLab19.uproject" -canskiplink "E:/GitHub/game-lab/GameLab19/GameLab19.uproject" ]
+[2019.02.07-14.23.09:621][215]Warning: Starting HotReload took  0.1s.
+[2019.02.07-14.23.14:844][372]CompilerResultsLog: New page: Compilation - Feb 7, 2019, 4:23:14 AM
+[2019.02.07-14.23.14:844][372]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\GitHub\game-lab).
+[2019.02.07-14.23.14:844][372]CompilerResultsLog: Creating makefile for hot reloading GameLab19Editor (modules to compile have changed)
+[2019.02.07-14.23.14:844][372]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.07-14.23.14:844][372]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.02.07-14.23.14:845][372]CompilerResultsLog: Building 1 action with 12 processes...
+[2019.02.07-14.23.14:845][372]CompilerResultsLog:   [1/1] UE4Editor-GameLab19-762.dll
+[2019.02.07-14.23.14:845][372]CompilerResultsLog:     ???ڴ????? E:\GitHub\game-lab\GameLab19\Intermediate\Build\Win64\UE4Editor\Development\GameLab19\UE4Editor-GameLab19-762.suppressed.lib ?Ͷ??? E:\GitHub\game-lab\GameLab19\Intermediate\Build\Win64\UE4Editor\Development\GameLab19\UE4Editor-GameLab19-762.suppressed.exp
+[2019.02.07-14.23.14:845][372]CompilerResultsLog: Error:   Twitch.cpp.obj : error LNK2019: ?޷????????ⲿ???? "public: void __cdecl ATwitch::SetInitialInfo(class FString,class FString,class FString)" (?SetInitialInfo@ATwitch@@QEAAXVFString@@00@Z)???÷????ں??? "public: static void __cdecl ATwitch::execSetInitialInfo(class UObject *,struct FFrame &,void * const)" (?execSetInitialInfo@ATwitch@@SAXPEAVUObject@@AEAUFFrame@@QEAX@Z) ?б?????
+[2019.02.07-14.23.14:846][372]CompilerResultsLog: Error:   Twitch.gen.cpp.obj : error LNK2001: ?޷????????ⲿ???? "public: void __cdecl ATwitch::SetInitialInfo(class FString,class FString,class FString)" (?SetInitialInfo@ATwitch@@QEAAXVFString@@00@Z)
+[2019.02.07-14.23.14:846][372]CompilerResultsLog: Error:   Twitch.cpp.obj : error LNK2019: ?޷????????ⲿ???? "public: bool __cdecl ATwitch::Connect(void)" (?Connect@ATwitch@@QEAA_NXZ)???÷????ں??? "public: static void __cdecl ATwitch::execConnect(class UObject *,struct FFrame &,void * const)" (?execConnect@ATwitch@@SAXPEAVUObject@@AEAUFFrame@@QEAX@Z) ?б?????
+[2019.02.07-14.23.14:847][372]CompilerResultsLog: Error:   Twitch.gen.cpp.obj : error LNK2001: ?޷????????ⲿ???? "public: bool __cdecl ATwitch::Connect(void)" (?Connect@ATwitch@@QEAA_NXZ)
+[2019.02.07-14.23.14:847][372]CompilerResultsLog: Error:   Twitch.cpp.obj : error LNK2019: ?޷????????ⲿ???? "public: bool __cdecl ATwitch::Authentication(void)" (?Authentication@ATwitch@@QEAA_NXZ)???÷????ں??? "public: static void __cdecl ATwitch::execAuthentication(class UObject *,struct FFrame &,void * const)" (?execAuthentication@ATwitch@@SAXPEAVUObject@@AEAUFFrame@@QEAX@Z) ?б?????
+[2019.02.07-14.23.14:847][372]CompilerResultsLog: Error:   Twitch.gen.cpp.obj : error LNK2001: ?޷????????ⲿ???? "public: bool __cdecl ATwitch::Authentication(void)" (?Authentication@ATwitch@@QEAA_NXZ)
+[2019.02.07-14.23.14:848][372]CompilerResultsLog: Error:   Twitch.cpp.obj : error LNK2019: ?޷????????ⲿ???? "public: bool __cdecl ATwitch::SendIRCMessage(class FString)" (?SendIRCMessage@ATwitch@@QEAA_NVFString@@@Z)???÷????ں??? "public: static void __cdecl ATwitch::execSendIRCMessage(class UObject *,struct FFrame &,void * const)" (?execSendIRCMessage@ATwitch@@SAXPEAVUObject@@AEAUFFrame@@QEAX@Z) ?б?????
+[2019.02.07-14.23.14:848][372]CompilerResultsLog: Error:   Twitch.gen.cpp.obj : error LNK2001: ?޷????????ⲿ???? "public: bool __cdecl ATwitch::SendIRCMessage(class FString)" (?SendIRCMessage@ATwitch@@QEAA_NVFString@@@Z)
+[2019.02.07-14.23.14:848][372]CompilerResultsLog: Error:   E:\GitHub\game-lab\GameLab19\Binaries\Win64\UE4Editor-GameLab19-762.dll : fatal error LNK1120: 4 ???޷????????ⲿ????
+[2019.02.07-14.23.14:849][372]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: E:\GitHub\game-lab\GameLab19\Binaries\Win64\UE4Editor-GameLab19-762.dll
+[2019.02.07-14.23.14:849][372]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.02.07-14.23.14:849][372]CompilerResultsLog: Total build time: 4.84 seconds (Parallel executor: 0.00 seconds)
+[2019.02.07-14.23.14:849][372]LogMainFrame: MainFrame: Module compiling took 5.273 seconds
+[2019.02.07-14.23.14:849][372]Warning: HotReload failed, recompile failed
+[2019.02.07-14.23.23:631][178]LogSlate: Window 'Message Log' being destroyed
+[2019.02.07-14.23.23:635][178]LogSlate: Window 'Message Log' being destroyed
+[2019.02.07-14.25.50:274][840]Candidate modules for hot reload:
+[2019.02.07-14.25.50:274][840]  GameLab19
+[2019.02.07-14.25.50:274][840]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GameLab19,4417 Win64 Development -TargetType=Editor -Project="E:/GitHub/game-lab/GameLab19/GameLab19.uproject" -canskiplink "E:/GitHub/game-lab/GameLab19/GameLab19.uproject" ]
+[2019.02.07-14.25.50:276][840]Warning: Starting HotReload took  0.0s.
+[2019.02.07-14.25.55:177][428]CompilerResultsLog: New page: Compilation - Feb 7, 2019, 4:25:55 AM
+[2019.02.07-14.25.55:177][428]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\GitHub\game-lab).
+[2019.02.07-14.25.55:177][428]CompilerResultsLog: Creating makefile for hot reloading GameLab19Editor (modules to compile have changed)
+[2019.02.07-14.25.55:177][428]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.07-14.25.55:177][428]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.02.07-14.25.55:178][428]CompilerResultsLog: Target is up to date
+[2019.02.07-14.25.55:178][428]CompilerResultsLog: Total build time: 4.66 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2019.02.07-14.25.55:178][428]LogMainFrame: MainFrame: Module compiling took 4.907 seconds
+[2019.02.07-14.25.55:407][428]LogContentBrowser: Native class hierarchy populated in 0.0066 seconds. Added 2654 classes and 625 folders.
+[2019.02.07-14.25.55:407][428]Display: HotReload took  5.1s.
+[2019.02.07-14.26.18:362][ 51]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.02.07-14.26.26:332][994]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_Twitch.BP_Twitch
+[2019.02.07-14.27.17:275][928]LogSlate: Window 'BP_Twitch*' being destroyed
+[2019.02.07-14.27.17:279][928]LogSlate: Window 'BP_Twitch*' being destroyed
+[2019.02.07-14.27.18:305][ 44]Candidate modules for hot reload:
+[2019.02.07-14.27.18:305][ 44]  GameLab19
+[2019.02.07-14.27.18:306][ 44]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GameLab19,1225 Win64 Development -TargetType=Editor -Project="E:/GitHub/game-lab/GameLab19/GameLab19.uproject" -canskiplink "E:/GitHub/game-lab/GameLab19/GameLab19.uproject" ]
+[2019.02.07-14.27.18:307][ 44]Warning: Starting HotReload took  0.0s.
+[2019.02.07-14.27.19:860][230]CompilerResultsLog: New page: Compilation - Feb 7, 2019, 4:27:19 AM
+[2019.02.07-14.27.19:860][230]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\GitHub\game-lab).
+[2019.02.07-14.27.19:860][230]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.07-14.27.19:860][230]CompilerResultsLog: Target is up to date
+[2019.02.07-14.27.19:860][230]CompilerResultsLog: Total build time: 1.32 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2019.02.07-14.27.19:861][230]LogMainFrame: MainFrame: Module compiling took 1.557 seconds
+[2019.02.07-14.27.20:094][230]LogContentBrowser: Native class hierarchy populated in 0.0065 seconds. Added 2654 classes and 625 folders.
+[2019.02.07-14.27.20:094][230]Display: HotReload took  1.8s.
+[2019.02.07-14.27.21:986][448]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_Twitch.BP_Twitch
+[2019.02.07-14.28.09:559][628]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Test_Map_Sam' took 0.061
+[2019.02.07-14.28.09:561][628]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_Twitch] ([1] browsable assets)...
+[2019.02.07-14.28.09:562][628]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Twitch]
+[2019.02.07-14.28.09:562][628]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Twitch" FILE="E:/GitHub/game-lab/GameLab19/Saved/Autosaves/Game/Blueprints/BP_Twitch_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.02.07-14.28.09:599][628]LogSavePackage: Moving 'E:/GitHub/game-lab/GameLab19/Saved/BP_Twitch_Auto1D9FE46B2443552BFA5DBBDBFB377021E.tmp' to 'E:/GitHub/game-lab/GameLab19/Saved/Autosaves/Game/Blueprints/BP_Twitch_Auto1.uasset'
+[2019.02.07-14.28.09:610][628]LogFileHelpers: Auto-saving content packages took 0.050
+[2019.02.07-14.28.10:822][632]LogHotReload: New module detected: UE4Editor-GameLab19-3892.dll
+[2019.02.07-14.28.11:507][635]LogHotReload: Starting Hot-Reload from IDE
+[2019.02.07-14.28.11:556][635]LogClass: Could not find existing class Twitch in package /Script/GameLab19 for HotReload, assuming new class
+[2019.02.07-14.28.11:556][635]LogClass: Function Authentication is new.
+[2019.02.07-14.28.11:556][635]LogClass: Function Connect is new.
+[2019.02.07-14.28.11:556][635]LogClass: Function SendIRCMessage is new.
+[2019.02.07-14.28.11:556][635]LogClass: Function SetInitialInfo is new.
+[2019.02.07-14.28.11:561][635]LogHotReload: Re-instancing Twitch after hot-reload.
+[2019.02.07-14.28.11:732][635]LogContentBrowser: Native class hierarchy updated for 'GameLab19' in 0.0004 seconds. Added 2 classes and 3 folders.
+[2019.02.07-14.28.11:735][635]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.02.07-14.28.11:962][635]LogContentBrowser: Native class hierarchy populated in 0.0066 seconds. Added 2654 classes and 625 folders.
+[2019.02.07-14.28.11:964][635]Display: HotReload took  0.5s.
+[2019.02.07-14.28.37:215][320]LogSlate: Took 0.019311 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.02.07-14.29.24:104][752]LogSlate: Window 'Delete Variable' being destroyed
+[2019.02.07-14.31.28:174][328]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.07-14.31.28:183][328]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam' with GeneratedClass '/Game/Maps/Test_Map_Sam.Test_Map_Sam_C' with ClassGeneratedBy '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam'
+[2019.02.07-14.31.28:184][328]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.02.07-14.31.28:185][328]LogPlayLevel: [PlayLevel] Compiling BP_Twitch before play...
+[2019.02.07-14.31.28:341][328]LogPlayLevel: PlayLevel: Blueprint regeneration took 156 ms (1 blueprints)
+[2019.02.07-14.31.28:341][328]PIE: New page: PIE session: Test_Map_Sam (Feb 7, 2019, 4:31:28 AM)
+[2019.02.07-14.31.28:341][328]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Map_Sam
+[2019.02.07-14.31.28:344][328]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002206s)
+[2019.02.07-14.31.28:344][328]LogAIModule: Creating AISystem for world Test_Map_Sam
+[2019.02.07-14.31.28:345][328]LogPlayLevel: PIE: World Init took: (0.000637s)
+[2019.02.07-14.31.28:345][328]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Map_Sam.Test_Map_Sam to /Game/Maps/UEDPIE_0_Test_Map_Sam.Test_Map_Sam (0.003173s)
+[2019.02.07-14.31.28:415][328]LogInit: XAudio2 using 'LG IPS FULLHD (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.07-14.31.28:425][328]LogInit: FAudioDevice initialized.
+[2019.02.07-14.31.28:455][328]LogLoad: Game class is 'B_GameMode_C'
+[2019.02.07-14.31.28:456][328]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Map_Sam.Test_Map_Sam up for play (max tick rate 0) at 2019.02.07-09.31.28
+[2019.02.07-14.31.28:457][328]LogWorld: Bringing up level for play took: 0.000892
+[2019.02.07-14.31.28:470][328]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test_Map_Sam 0.35
+[2019.02.07-14.31.28:471][328]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam' with GeneratedClass '/Game/Maps/Test_Map_Sam.Test_Map_Sam_C' with ClassGeneratedBy '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam'
+[2019.02.07-14.31.30:179][531]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam' with GeneratedClass '/Game/Maps/Test_Map_Sam.Test_Map_Sam_C' with ClassGeneratedBy '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam'
+[2019.02.07-14.31.30:180][531]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.07-14.31.30:211][531]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.07-14.31.30:211][531]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam' with GeneratedClass '/Game/Maps/Test_Map_Sam.Test_Map_Sam_C' with ClassGeneratedBy '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam'
+[2019.02.07-14.31.30:236][531]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.07-14.31.30:284][536]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.02.07-14.31.41:410][871]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.07-14.31.41:418][871]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam' with GeneratedClass '/Game/Maps/Test_Map_Sam.Test_Map_Sam_C' with ClassGeneratedBy '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam'
+[2019.02.07-14.31.41:418][871]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.07-14.31.41:419][871]PIE: New page: PIE session: Test_Map_Sam (Feb 7, 2019, 4:31:41 AM)
+[2019.02.07-14.31.41:419][871]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Map_Sam
+[2019.02.07-14.31.41:421][871]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002138s)
+[2019.02.07-14.31.41:421][871]LogAIModule: Creating AISystem for world Test_Map_Sam
+[2019.02.07-14.31.41:422][871]LogPlayLevel: PIE: World Init took: (0.000516s)
+[2019.02.07-14.31.41:422][871]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Map_Sam.Test_Map_Sam to /Game/Maps/UEDPIE_0_Test_Map_Sam.Test_Map_Sam (0.002989s)
+[2019.02.07-14.31.41:463][871]LogInit: XAudio2 using 'LG IPS FULLHD (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.07-14.31.41:473][871]LogInit: FAudioDevice initialized.
+[2019.02.07-14.31.41:506][871]LogLoad: Game class is 'B_GameMode_C'
+[2019.02.07-14.31.41:508][871]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Map_Sam.Test_Map_Sam up for play (max tick rate 0) at 2019.02.07-09.31.41
+[2019.02.07-14.31.41:508][871]LogWorld: Bringing up level for play took: 0.000855
+[2019.02.07-14.31.41:521][871]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test_Map_Sam -0.599
+[2019.02.07-14.31.41:521][871]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam' with GeneratedClass '/Game/Maps/Test_Map_Sam.Test_Map_Sam_C' with ClassGeneratedBy '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam'
+[2019.02.07-14.31.45:765][378]LogSlate: Window 'BP_Twitch*' being destroyed
+[2019.02.07-14.31.45:770][378]LogSlate: Window 'BP_Twitch*' being destroyed
+[2019.02.07-14.31.52:175][134]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam' with GeneratedClass '/Game/Maps/Test_Map_Sam.Test_Map_Sam_C' with ClassGeneratedBy '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam'
+[2019.02.07-14.31.52:175][134]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.07-14.31.52:209][134]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.07-14.31.52:209][134]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam' with GeneratedClass '/Game/Maps/Test_Map_Sam.Test_Map_Sam_C' with ClassGeneratedBy '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam'
+[2019.02.07-14.31.52:233][134]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.07-14.31.52:274][136]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.02.07-14.31.54:892][450]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.07-14.31.57:745][789]LogEditorViewport: Clicking on Actor (context menu): BP_Twitch_C (BP_Twitch)
+[2019.02.07-14.31.57:796][789]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.07-14.31.58:905][921]LogEditorViewport: Clicking on Actor (LMB): BP_Twitch_C (BP_Twitch)
+[2019.02.07-14.31.58:990][930]LogEditorViewport: Clicking on Component (LMB): SceneComponent (DefaultSceneRoot)
+[2019.02.07-14.32.01:067][178]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.07-14.32.01:197][193]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_Twitch.BP_Twitch
+[2019.02.07-14.32.06:693][819]LogSlate: Window 'BP_Twitch*' being destroyed
+[2019.02.07-14.32.06:696][819]LogSlate: Window 'BP_Twitch*' being destroyed
+[2019.02.07-14.32.07:764][941]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.07-14.33.14:756][597]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.07-14.33.14:764][597]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam' with GeneratedClass '/Game/Maps/Test_Map_Sam.Test_Map_Sam_C' with ClassGeneratedBy '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam'
+[2019.02.07-14.33.14:764][597]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.07-14.33.14:764][597]PIE: New page: PIE session: Test_Map_Sam (Feb 7, 2019, 4:33:14 AM)
+[2019.02.07-14.33.14:764][597]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Map_Sam
+[2019.02.07-14.33.14:767][597]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002143s)
+[2019.02.07-14.33.14:767][597]LogAIModule: Creating AISystem for world Test_Map_Sam
+[2019.02.07-14.33.14:767][597]LogPlayLevel: PIE: World Init took: (0.000728s)
+[2019.02.07-14.33.14:768][597]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Map_Sam.Test_Map_Sam to /Game/Maps/UEDPIE_0_Test_Map_Sam.Test_Map_Sam (0.003264s)
+[2019.02.07-14.33.14:821][597]LogInit: XAudio2 using 'LG IPS FULLHD (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.07-14.33.14:831][597]LogInit: FAudioDevice initialized.
+[2019.02.07-14.33.14:860][597]LogLoad: Game class is 'B_GameMode_C'
+[2019.02.07-14.33.14:861][597]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Map_Sam.Test_Map_Sam up for play (max tick rate 0) at 2019.02.07-09.33.14
+[2019.02.07-14.33.14:862][597]LogWorld: Bringing up level for play took: 0.000771
+[2019.02.07-14.33.14:972][597]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test_Map_Sam 0.851
+[2019.02.07-14.33.14:972][597]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam' with GeneratedClass '/Game/Maps/Test_Map_Sam.Test_Map_Sam_C' with ClassGeneratedBy '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam'
+[2019.02.07-14.33.16:554][785]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam' with GeneratedClass '/Game/Maps/Test_Map_Sam.Test_Map_Sam_C' with ClassGeneratedBy '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam'
+[2019.02.07-14.33.16:555][785]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.07-14.33.16:585][785]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.07-14.33.16:585][785]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam' with GeneratedClass '/Game/Maps/Test_Map_Sam.Test_Map_Sam_C' with ClassGeneratedBy '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam'
+[2019.02.07-14.33.16:607][785]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.07-14.33.16:662][791]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.02.07-14.33.18:671][ 32]LogEditorViewport: Clicking on Actor (LMB): BP_Twitch_C (BP_Twitch)
+[2019.02.07-14.33.20:384][235]LogEditorViewport: Clicking on Actor (context menu): BP_Twitch_C (BP_Twitch)
+[2019.02.07-14.33.20:398][235]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.07-14.33.29:260][294]LogEditorViewport: Clicking on Actor (LMB): BP_Twitch_C (BP_Twitch)
+[2019.02.07-14.33.32:989][738]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.07-14.33.33:152][757]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/B_GameMode.B_GameMode
+[2019.02.07-14.33.37:327][234]LogSlate: Window 'B_GameMode' being destroyed
+[2019.02.07-14.33.37:331][234]LogSlate: Window 'B_GameMode' being destroyed
+[2019.02.07-14.33.38:369][353]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.07-14.33.38:514][370]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_Twitch.BP_Twitch
+[2019.02.07-14.33.59:527][307]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.07-14.33.59:531][307]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam' with GeneratedClass '/Game/Maps/Test_Map_Sam.Test_Map_Sam_C' with ClassGeneratedBy '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam'
+[2019.02.07-14.33.59:531][307]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.02.07-14.33.59:533][307]LogPlayLevel: [PlayLevel] Compiling BP_Twitch before play...
+[2019.02.07-14.33.59:655][307]LogPlayLevel: PlayLevel: Blueprint regeneration took 124 ms (1 blueprints)
+[2019.02.07-14.33.59:655][307]PIE: New page: PIE session: Test_Map_Sam (Feb 7, 2019, 4:33:59 AM)
+[2019.02.07-14.33.59:656][307]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Map_Sam
+[2019.02.07-14.33.59:658][307]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001975s)
+[2019.02.07-14.33.59:658][307]LogAIModule: Creating AISystem for world Test_Map_Sam
+[2019.02.07-14.33.59:659][307]LogPlayLevel: PIE: World Init took: (0.000748s)
+[2019.02.07-14.33.59:659][307]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Map_Sam.Test_Map_Sam to /Game/Maps/UEDPIE_0_Test_Map_Sam.Test_Map_Sam (0.003031s)
+[2019.02.07-14.33.59:697][307]LogInit: XAudio2 using 'LG IPS FULLHD (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.07-14.33.59:706][307]LogInit: FAudioDevice initialized.
+[2019.02.07-14.33.59:735][307]LogLoad: Game class is 'B_GameMode_C'
+[2019.02.07-14.33.59:736][307]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Map_Sam.Test_Map_Sam up for play (max tick rate 0) at 2019.02.07-09.33.59
+[2019.02.07-14.33.59:737][307]LogWorld: Bringing up level for play took: 0.000839
+[2019.02.07-14.33.59:862][307]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test_Map_Sam -0.259
+[2019.02.07-14.33.59:862][307]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam' with GeneratedClass '/Game/Maps/Test_Map_Sam.Test_Map_Sam_C' with ClassGeneratedBy '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam'
+[2019.02.07-14.34.02:193][456]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.07-14.34.02:294][468]LogSlate: Window 'BP_Twitch*' being destroyed
+[2019.02.07-14.34.02:297][468]LogSlate: Window 'BP_Twitch*' being destroyed
+[2019.02.07-14.34.04:201][691]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam' with GeneratedClass '/Game/Maps/Test_Map_Sam.Test_Map_Sam_C' with ClassGeneratedBy '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam'
+[2019.02.07-14.34.04:202][691]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.07-14.34.04:234][691]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.07-14.34.04:234][691]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam' with GeneratedClass '/Game/Maps/Test_Map_Sam.Test_Map_Sam_C' with ClassGeneratedBy '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam'
+[2019.02.07-14.34.04:258][691]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.07-14.34.04:307][696]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.02.07-14.34.07:874][124]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2019.02.07-14.34.07:919][124]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.07-14.34.10:800][466]LogEditorViewport: Clicking on Actor (LMB): BP_Twitch_C (BP_Twitch)
+[2019.02.07-14.34.15:607][ 38]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.07-14.34.15:666][ 45]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.07-14.34.15:673][ 45]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam' with GeneratedClass '/Game/Maps/Test_Map_Sam.Test_Map_Sam_C' with ClassGeneratedBy '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam'
+[2019.02.07-14.34.15:673][ 45]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.07-14.34.15:673][ 45]PIE: New page: PIE session: Test_Map_Sam (Feb 7, 2019, 4:34:15 AM)
+[2019.02.07-14.34.15:673][ 45]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Map_Sam
+[2019.02.07-14.34.15:676][ 45]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002182s)
+[2019.02.07-14.34.15:676][ 45]LogAIModule: Creating AISystem for world Test_Map_Sam
+[2019.02.07-14.34.15:676][ 45]LogPlayLevel: PIE: World Init took: (0.000570s)
+[2019.02.07-14.34.15:676][ 45]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Map_Sam.Test_Map_Sam to /Game/Maps/UEDPIE_0_Test_Map_Sam.Test_Map_Sam (0.003072s)
+[2019.02.07-14.34.15:716][ 45]LogInit: XAudio2 using 'LG IPS FULLHD (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.07-14.34.15:726][ 45]LogInit: FAudioDevice initialized.
+[2019.02.07-14.34.15:753][ 45]LogLoad: Game class is 'B_GameMode_C'
+[2019.02.07-14.34.15:755][ 45]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Map_Sam.Test_Map_Sam up for play (max tick rate 0) at 2019.02.07-09.34.15
+[2019.02.07-14.34.15:755][ 45]LogWorld: Bringing up level for play took: 0.000755
+[2019.02.07-14.34.15:855][ 45]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test_Map_Sam -0.265
+[2019.02.07-14.34.15:855][ 45]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam' with GeneratedClass '/Game/Maps/Test_Map_Sam.Test_Map_Sam_C' with ClassGeneratedBy '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam'
+[2019.02.07-14.34.21:364][703]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam' with GeneratedClass '/Game/Maps/Test_Map_Sam.Test_Map_Sam_C' with ClassGeneratedBy '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam'
+[2019.02.07-14.34.21:365][703]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.07-14.34.21:397][703]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.07-14.34.21:397][703]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam' with GeneratedClass '/Game/Maps/Test_Map_Sam.Test_Map_Sam_C' with ClassGeneratedBy '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam'
+[2019.02.07-14.34.21:421][703]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.07-14.34.21:465][706]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.02.07-14.34.22:657][849]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.07-14.34.22:724][857]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.07-14.34.22:728][857]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam' with GeneratedClass '/Game/Maps/Test_Map_Sam.Test_Map_Sam_C' with ClassGeneratedBy '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam'
+[2019.02.07-14.34.22:728][857]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.07-14.34.22:728][857]PIE: New page: PIE session: Test_Map_Sam (Feb 7, 2019, 4:34:22 AM)
+[2019.02.07-14.34.22:728][857]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Map_Sam
+[2019.02.07-14.34.22:730][857]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002105s)
+[2019.02.07-14.34.22:731][857]LogAIModule: Creating AISystem for world Test_Map_Sam
+[2019.02.07-14.34.22:731][857]LogPlayLevel: PIE: World Init took: (0.000608s)
+[2019.02.07-14.34.22:731][857]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Map_Sam.Test_Map_Sam to /Game/Maps/UEDPIE_0_Test_Map_Sam.Test_Map_Sam (0.003095s)
+[2019.02.07-14.34.22:771][857]LogInit: XAudio2 using 'LG IPS FULLHD (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.07-14.34.22:781][857]LogInit: FAudioDevice initialized.
+[2019.02.07-14.34.22:811][857]LogLoad: Game class is 'B_GameMode_C'
+[2019.02.07-14.34.22:812][857]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Map_Sam.Test_Map_Sam up for play (max tick rate 0) at 2019.02.07-09.34.22
+[2019.02.07-14.34.22:812][857]LogWorld: Bringing up level for play took: 0.000746
+[2019.02.07-14.34.22:910][857]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test_Map_Sam 0.79
+[2019.02.07-14.34.22:910][857]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam' with GeneratedClass '/Game/Maps/Test_Map_Sam.Test_Map_Sam_C' with ClassGeneratedBy '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam'
+[2019.02.07-14.34.23:877][971]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam' with GeneratedClass '/Game/Maps/Test_Map_Sam.Test_Map_Sam_C' with ClassGeneratedBy '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam'
+[2019.02.07-14.34.23:877][971]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.07-14.34.23:909][971]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.07-14.34.23:909][971]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam' with GeneratedClass '/Game/Maps/Test_Map_Sam.Test_Map_Sam_C' with ClassGeneratedBy '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam'
+[2019.02.07-14.34.23:933][971]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.07-14.34.23:979][976]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.02.07-14.34.25:129][114]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.07-14.34.25:133][114]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam' with GeneratedClass '/Game/Maps/Test_Map_Sam.Test_Map_Sam_C' with ClassGeneratedBy '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam'
+[2019.02.07-14.34.25:133][114]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.07-14.34.25:133][114]PIE: New page: PIE session: Test_Map_Sam (Feb 7, 2019, 4:34:25 AM)
+[2019.02.07-14.34.25:134][114]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test_Map_Sam
+[2019.02.07-14.34.25:136][114]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002086s)
+[2019.02.07-14.34.25:136][114]LogAIModule: Creating AISystem for world Test_Map_Sam
+[2019.02.07-14.34.25:136][114]LogPlayLevel: PIE: World Init took: (0.000492s)
+[2019.02.07-14.34.25:136][114]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test_Map_Sam.Test_Map_Sam to /Game/Maps/UEDPIE_0_Test_Map_Sam.Test_Map_Sam (0.002900s)
+[2019.02.07-14.34.25:172][114]LogInit: XAudio2 using 'LG IPS FULLHD (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.07-14.34.25:182][114]LogInit: FAudioDevice initialized.
+[2019.02.07-14.34.25:211][114]LogLoad: Game class is 'B_GameMode_C'
+[2019.02.07-14.34.25:212][114]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test_Map_Sam.Test_Map_Sam up for play (max tick rate 0) at 2019.02.07-09.34.25
+[2019.02.07-14.34.25:213][114]LogWorld: Bringing up level for play took: 0.000750
+[2019.02.07-14.34.25:309][114]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test_Map_Sam -0.811
+[2019.02.07-14.34.25:310][114]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam' with GeneratedClass '/Game/Maps/Test_Map_Sam.Test_Map_Sam_C' with ClassGeneratedBy '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam'
+[2019.02.07-14.34.27:242][344]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam' with GeneratedClass '/Game/Maps/Test_Map_Sam.Test_Map_Sam_C' with ClassGeneratedBy '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam'
+[2019.02.07-14.34.27:243][344]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.07-14.34.27:272][344]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.07-14.34.27:272][344]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam' with GeneratedClass '/Game/Maps/Test_Map_Sam.Test_Map_Sam_C' with ClassGeneratedBy '/Game/Maps/Test_Map_Sam.Test_Map_Sam:PersistentLevel.Test_Map_Sam'
+[2019.02.07-14.34.27:292][344]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.07-14.34.27:346][350]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2019.02.07-14.34.29:915][655]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Test_Map_Sam" FILE="E:/GitHub/game-lab/GameLab19/Content/Maps/Test_Map_Sam.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.02.07-14.34.30:054][655]LogSavePackage: Moving 'E:/GitHub/game-lab/GameLab19/Saved/Test_Map_Sam25F264AB4AE6ED7CFCBD9283FD76C7B8.tmp' to 'E:/GitHub/game-lab/GameLab19/Content/Maps/Test_Map_Sam.umap'

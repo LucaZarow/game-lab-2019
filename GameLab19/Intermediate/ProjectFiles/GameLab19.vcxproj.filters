@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\GameLab19.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{13BD0A6A-B576-4A39-8006-97B2CE4DA82F}</UniqueIdentifier>
+      <UniqueIdentifier>{FDB928EE-99D3-4421-BC2B-A5619BBF3C73}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GameLab19.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{54EAC781-4998-42A5-B75E-E9756B9A509A}</UniqueIdentifier>
+      <UniqueIdentifier>{A717BFE4-D448-4FC1-B35B-6532EB5C88EA}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\GameLab19">
-      <UniqueIdentifier>{B8082343-DDA8-40F3-BEEC-505E04F4E1BA}</UniqueIdentifier>
+      <UniqueIdentifier>{968514FD-7839-402C-A7AF-6589164F2FB5}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GameLab19\GameLab19.Build.cs">
       <Filter>Source\GameLab19</Filter>
@@ -43,6 +43,18 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\GameLab19\GameLab19GameModeBase.h">
       <Filter>Source\GameLab19</Filter>
+    </ClInclude>
+    <Filter Include="Source\GameLab19\Private">
+      <UniqueIdentifier>{893C5F02-F203-4751-8A0C-89A6AE67E4BC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GameLab19\Private\Twitch.cpp">
+      <Filter>Source\GameLab19\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\GameLab19\Public">
+      <UniqueIdentifier>{3B62C99D-7C0A-456D-B8C5-BA19942FA15D}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\GameLab19\Public\Twitch.h">
+      <Filter>Source\GameLab19\Public</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
