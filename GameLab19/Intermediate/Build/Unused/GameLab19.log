@@ -1,17 +1,18 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (E:\GitHub\game-lab).
-  Creating makefile for hot reloading GameLab19Editor (source directory changed)
-  Compiling game modules for hot reload
-  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Parsing headers for GameLab19Editor
-    Running UnrealHeaderTool "E:\GitHub\game-lab\GameLab19\GameLab19.uproject" "E:\GitHub\game-lab\GameLab19\Intermediate\Build\Win64\GameLab19Editor\Development\GameLab19Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for GameLab19Editor in 7.2520961 seconds
-  Building 5 actions with 12 processes...
-    [1/5] GameLab19.init.gen.cpp
-    [2/5] Twitch.gen.cpp
-    [3/5] Twitch.cpp
-    [4/5] UE4Editor-GameLab19-3892.lib
-       Creating library E:\GitHub\game-lab\GameLab19\Intermediate\Build\Win64\UE4Editor\Development\GameLab19\UE4Editor-GameLab19-3892.lib and object E:\GitHub\game-lab\GameLab19\Intermediate\Build\Win64\UE4Editor\Development\GameLab19\UE4Editor-GameLab19-3892.exp
-    [5/5] UE4Editor-GameLab19-3892.dll
-       Creating library E:\GitHub\game-lab\GameLab19\Intermediate\Build\Win64\UE4Editor\Development\GameLab19\UE4Editor-GameLab19-3892.suppressed.lib and object E:\GitHub\game-lab\GameLab19\Intermediate\Build\Win64\UE4Editor\Development\GameLab19\UE4Editor-GameLab19-3892.suppressed.exp
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\pierr\Documents\GitHub\game-lab-2019).
+  Creating makefile for GameLab19Editor (no existing makefile)
+  Using Visual Studio 2017 14.13.26128 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 10 actions with 8 processes...
+    [1/10] PCLaunch.rc
+    [2/10] SharedPCH.Engine.cpp
+    [3/10] GameLab19.init.gen.cpp
+    [4/10] GameLab19.cpp
+    [5/10] GameLab19GameModeBase.cpp
+    [6/10] GameLab19GameModeBase.gen.cpp
+    [7/10] Twitch.gen.cpp
+    [8/10] Twitch.cpp
+    [9/10] UE4Editor-GameLab19.lib
+       Creating library C:\Users\pierr\Documents\GitHub\game-lab-2019\GameLab19\Intermediate\Build\Win64\UE4Editor\Development\GameLab19\UE4Editor-GameLab19.lib and object C:\Users\pierr\Documents\GitHub\game-lab-2019\GameLab19\Intermediate\Build\Win64\UE4Editor\Development\GameLab19\UE4Editor-GameLab19.exp
+    [10/10] UE4Editor-GameLab19.dll
+       Creating library C:\Users\pierr\Documents\GitHub\game-lab-2019\GameLab19\Intermediate\Build\Win64\UE4Editor\Development\GameLab19\UE4Editor-GameLab19.suppressed.lib and object C:\Users\pierr\Documents\GitHub\game-lab-2019\GameLab19\Intermediate\Build\Win64\UE4Editor\Development\GameLab19\UE4Editor-GameLab19.suppressed.exp
   Deploying GameLab19Editor Win64 Development...
-  Total build time: 13.15 seconds (Parallel executor: 1.96 seconds)
+  Total build time: 107.02 seconds (Parallel executor: 40.39 seconds)
