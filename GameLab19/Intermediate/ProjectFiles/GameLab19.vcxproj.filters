@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\GameLab19.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{3363B525-644B-4EE1-A45B-30E3B0F4475F}</UniqueIdentifier>
+      <UniqueIdentifier>{BDFF03F3-F71A-4F0A-9454-4D910391A83F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GameLab19.Target.cs">
       <Filter>Source</Filter>
@@ -12,9 +12,12 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{4BF936F5-B38A-4286-BE1D-8C225858EDC5}</UniqueIdentifier>
+      <UniqueIdentifier>{FD592CED-DEAE-424E-B671-5D3C777C52FC}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
       <Filter>Config</Filter>
     </None>
     <None Include="..\..\Config\DefaultEngine.ini">
@@ -27,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\GameLab19">
-      <UniqueIdentifier>{79B41E49-1444-4316-B619-55B788130E4A}</UniqueIdentifier>
+      <UniqueIdentifier>{4F1D9E18-DD27-4E67-87AC-D3CCA2A34A03}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GameLab19\GameLab19.Build.cs">
       <Filter>Source\GameLab19</Filter>
@@ -45,14 +48,26 @@
       <Filter>Source\GameLab19</Filter>
     </ClInclude>
     <Filter Include="Source\GameLab19\Private">
-      <UniqueIdentifier>{B10F00A5-F4E6-4197-9A46-8C9AF940252D}</UniqueIdentifier>
+      <UniqueIdentifier>{D12EE413-D76F-43A9-99AB-358AB5802500}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\GameLab19\Private\BasePawn.cpp">
+      <Filter>Source\GameLab19\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GameLab19\Private\Projectile.cpp">
+      <Filter>Source\GameLab19\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\GameLab19\Private\Twitch.cpp">
       <Filter>Source\GameLab19\Private</Filter>
     </ClCompile>
     <Filter Include="Source\GameLab19\Public">
-      <UniqueIdentifier>{F1B8C9AA-C9F5-4F20-883C-1B08304C1954}</UniqueIdentifier>
+      <UniqueIdentifier>{C2EC76D4-5F28-4884-BC29-2C4325104DE8}</UniqueIdentifier>
     </Filter>
+    <ClInclude Include="..\..\Source\GameLab19\Public\BasePawn.h">
+      <Filter>Source\GameLab19\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GameLab19\Public\Projectile.h">
+      <Filter>Source\GameLab19\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\GameLab19\Public\Twitch.h">
       <Filter>Source\GameLab19\Public</Filter>
     </ClInclude>

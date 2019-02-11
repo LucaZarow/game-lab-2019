@@ -24,7 +24,7 @@
 /wd4838
 /we4668
 /I .
-/I C:\Users\Andy\Documents\GitHub\game-lab-2019\GameLab19\Source\GameLab19\Private
+/I C:\Users\pierr\Documents\GitHub\game-lab-2019-MasterBranch\game-lab-2019\GameLab19\Source\GameLab19\Private
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
 /I Runtime
 /I Runtime\Engine\Classes
@@ -413,27 +413,28 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
-/I C:\Users\Andy\Documents\GitHub\game-lab-2019\GameLab19\Intermediate\Build\Win64\UE4Editor\Inc\GameLab19
-/I C:\Users\Andy\Documents\GitHub\game-lab-2019\GameLab19\Source
-/I C:\Users\Andy\Documents\GitHub\game-lab-2019\GameLab19\Source\GameLab19\Public
-/I C:\Users\Andy\Documents\GitHub\game-lab-2019\GameLab19\Source\GameLab19
+/I C:\Users\pierr\Documents\GitHub\game-lab-2019-MasterBranch\game-lab-2019\GameLab19\Intermediate\Build\Win64\UE4Editor\Inc\GameLab19
+/I C:\Users\pierr\Documents\GitHub\game-lab-2019-MasterBranch\game-lab-2019\GameLab19\Source
+/I C:\Users\pierr\Documents\GitHub\game-lab-2019-MasterBranch\game-lab-2019\GameLab19\Source\GameLab19\Public
+/I C:\Users\pierr\Documents\GitHub\game-lab-2019-MasterBranch\game-lab-2019\GameLab19\Source\GameLab19
 /I Runtime\Networking\Public
 /I Runtime\Networking
 /I Runtime\Networking\Public\Common
 /I Runtime\Networking\Public\Interfaces
 /I Runtime\Networking\Public\Interfaces\IPv4
 /I Runtime\Networking\Public\Interfaces\Steam
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\INCLUDE"
+/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6\include\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"
-/FI"C:\Users\Andy\Documents\GitHub\game-lab-2019\GameLab19\Intermediate\Build\Win64\GameLab19Editor\Development\Engine\SharedPCH.Engine.h"
-/Yu"C:\Users\Andy\Documents\GitHub\game-lab-2019\GameLab19\Intermediate\Build\Win64\GameLab19Editor\Development\Engine\SharedPCH.Engine.h"
-/Fp"C:\Users\Andy\Documents\GitHub\game-lab-2019\GameLab19\Intermediate\Build\Win64\GameLab19Editor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\Andy\Documents\GitHub\game-lab-2019\GameLab19\Intermediate\Build\Win64\UE4Editor\Inc\GameLab19\Twitch.gen.cpp"
-/FI"C:\Users\Andy\Documents\GitHub\game-lab-2019\GameLab19\Intermediate\Build\Win64\UE4Editor\Development\GameLab19\Definitions.GameLab19.h"
-/Fo"C:\Users\Andy\Documents\GitHub\game-lab-2019\GameLab19\Intermediate\Build\Win64\UE4Editor\Development\GameLab19\Twitch.gen.cpp.obj"
+/FI"C:\Users\pierr\Documents\GitHub\game-lab-2019-MasterBranch\game-lab-2019\GameLab19\Intermediate\Build\Win64\GameLab19Editor\Development\Engine\SharedPCH.Engine.h"
+/Yu"C:\Users\pierr\Documents\GitHub\game-lab-2019-MasterBranch\game-lab-2019\GameLab19\Intermediate\Build\Win64\GameLab19Editor\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Users\pierr\Documents\GitHub\game-lab-2019-MasterBranch\game-lab-2019\GameLab19\Intermediate\Build\Win64\GameLab19Editor\Development\Engine\SharedPCH.Engine.h.pch"
+"C:\Users\pierr\Documents\GitHub\game-lab-2019-MasterBranch\game-lab-2019\GameLab19\Intermediate\Build\Win64\UE4Editor\Inc\GameLab19\Twitch.gen.cpp"
+/FI"C:\Users\pierr\Documents\GitHub\game-lab-2019-MasterBranch\game-lab-2019\GameLab19\Intermediate\Build\Win64\UE4Editor\Development\GameLab19\Definitions.GameLab19.h"
+/Fo"C:\Users\pierr\Documents\GitHub\game-lab-2019-MasterBranch\game-lab-2019\GameLab19\Intermediate\Build\Win64\UE4Editor\Development\GameLab19\Twitch.gen.cpp.obj"
 /TP
 /GR-
 /W4
