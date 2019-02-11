@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\GameLab19.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{BDFF03F3-F71A-4F0A-9454-4D910391A83F}</UniqueIdentifier>
+      <UniqueIdentifier>{133FB117-171C-4D54-B654-9991D60D6EFA}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GameLab19.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{FD592CED-DEAE-424E-B671-5D3C777C52FC}</UniqueIdentifier>
+      <UniqueIdentifier>{48BDD702-5366-4750-915D-891DEF5216E7}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\GameLab19">
-      <UniqueIdentifier>{4F1D9E18-DD27-4E67-87AC-D3CCA2A34A03}</UniqueIdentifier>
+      <UniqueIdentifier>{CC456F52-22BE-4489-9739-78806475B55F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GameLab19\GameLab19.Build.cs">
       <Filter>Source\GameLab19</Filter>
@@ -48,7 +48,7 @@
       <Filter>Source\GameLab19</Filter>
     </ClInclude>
     <Filter Include="Source\GameLab19\Private">
-      <UniqueIdentifier>{D12EE413-D76F-43A9-99AB-358AB5802500}</UniqueIdentifier>
+      <UniqueIdentifier>{33B251B8-ACBD-4D16-B549-390C296FB9EB}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\GameLab19\Private\BasePawn.cpp">
       <Filter>Source\GameLab19\Private</Filter>
@@ -60,7 +60,7 @@
       <Filter>Source\GameLab19\Private</Filter>
     </ClCompile>
     <Filter Include="Source\GameLab19\Public">
-      <UniqueIdentifier>{C2EC76D4-5F28-4884-BC29-2C4325104DE8}</UniqueIdentifier>
+      <UniqueIdentifier>{5C1AB151-B612-4DDD-9BEC-FF03F3DDF962}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\GameLab19\Public\BasePawn.h">
       <Filter>Source\GameLab19\Public</Filter>
