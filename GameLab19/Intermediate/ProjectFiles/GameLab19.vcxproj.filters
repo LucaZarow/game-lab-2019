@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\GameLab19.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{BDFF03F3-F71A-4F0A-9454-4D910391A83F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\GameLab19.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\GameLab19Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FD592CED-DEAE-424E-B671-5D3C777C52FC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\GameLab19">
+      <UniqueIdentifier>{4F1D9E18-DD27-4E67-87AC-D3CCA2A34A03}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\GameLab19\GameLab19.Build.cs">
+      <Filter>Source\GameLab19</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\GameLab19\GameLab19.cpp">
+      <Filter>Source\GameLab19</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GameLab19\GameLab19.h">
+      <Filter>Source\GameLab19</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GameLab19\GameLab19GameModeBase.cpp">
+      <Filter>Source\GameLab19</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GameLab19\GameLab19GameModeBase.h">
+      <Filter>Source\GameLab19</Filter>
+    </ClInclude>
+    <Filter Include="Source\GameLab19\Private">
+      <UniqueIdentifier>{D12EE413-D76F-43A9-99AB-358AB5802500}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GameLab19\Private\BasePawn.cpp">
+      <Filter>Source\GameLab19\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GameLab19\Private\Projectile.cpp">
+      <Filter>Source\GameLab19\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GameLab19\Private\Twitch.cpp">
+      <Filter>Source\GameLab19\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\GameLab19\Public">
+      <UniqueIdentifier>{C2EC76D4-5F28-4884-BC29-2C4325104DE8}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\GameLab19\Public\BasePawn.h">
+      <Filter>Source\GameLab19\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GameLab19\Public\Projectile.h">
+      <Filter>Source\GameLab19\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GameLab19\Public\Twitch.h">
+      <Filter>Source\GameLab19\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
