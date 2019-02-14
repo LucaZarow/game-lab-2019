@@ -28,18 +28,20 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	UFUNCTION(BlueprintCallable, Category = "Setup")
-		void SetInitialInfo(const FString Oauth, const  FString Username, const FString Channel);
+	void SetInitialInfo(const FString Oauth, const  FString Username, const FString Channel);
 
 	UFUNCTION(BlueprintCallable, Category = "Setup")
-		bool Connect();
+	bool Connect();
 
 	UFUNCTION(BlueprintCallable, Category = "Setup")
-		bool Authentication();
+	bool Authentication();
 
 	UFUNCTION(BlueprintCallable, Category = "Setup")
-		bool SendIRCMessage(FString _message);
+	bool SendIRCMessage(FString _message);
 
 	bool ReceiveData(FString& OutMessage) const;
+
+	bool DetectKeyWord(FString Message, FString& OutResult) const;
 
 private:
 	bool InfoInitialized = false;

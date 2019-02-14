@@ -25,9 +25,13 @@ void ATwitch::Tick(float DeltaTime)
 
 	// If recieve a message, print to screen
 	FString OutMessage;
+	FString OutResult;
 	if (ReceiveData(OutMessage))
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Orange, *OutMessage);
+		if (DetectKeyWord(OutMessage, OutResult))
+		{
+			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Orange, *OutMessage);
+		}
 	}
 
 }
@@ -145,5 +149,14 @@ bool ATwitch::ReceiveData(FString& OutMessage) const
 	}
 
 	return false;
+}
+
+bool ATwitch::DetectKeyWord(FString Message, FString& OutResult) const
+{
+	if (Message.Contains("%vote"))
+	{
+		UE_LOG(LogTemp, Error, TEXT("True"));
+	}
+	return true;
 }
 
