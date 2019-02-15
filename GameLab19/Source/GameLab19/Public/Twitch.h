@@ -41,7 +41,7 @@ public:
 
 	bool ReceiveData(FString& OutMessage) const;
 
-	bool DetectKeyWord(FString Message, FString& OutResult) const;
+	int DetectKeyWord(FString OptionOne, FString OptionTwo, FString Message) const;
 
 private:
 	bool InfoInitialized = false;
