@@ -16,6 +16,9 @@ void ATwitch::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	VotingSystem();
+
+	//GetWorldTimerManager().SetTimer(SpawnTimer, this, &ATwitch::Test, SpawnTime, false);
 }
 
 // Called every frame
@@ -23,17 +26,54 @@ void ATwitch::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	/*
+	int result;
 	// If recieve a message, print to screen
 	FString OutMessage;
 	if (ReceiveData(OutMessage))
 	{
 		// Vote result
-		int result = DetectKeyWord("$OP1$", "$OP2$", OutMessage);
-		UE_LOG(LogTemp, Error, TEXT("Result: %i"), result);
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Orange, *OutMessage);
-		
+		DetectKeyWord("$OP1$", "$OP2$", OutMessage, result);
+		if (result == 1)
+		{
+			UE_LOG(LogTemp, Warning, TEXT("Result: %i"), result);
+			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Orange, *OutMessage);
+		}
+		if (result == 2)
+		{
+			UE_LOG(LogTemp, Warning, TEXT("Result: %i"), result);
+			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Orange, *OutMessage);
+		}
 	}
+	*/
+}
 
+void ATwitch::VotingSystem()
+{
+	UE_LOG(LogTemp, Warning, TEXT("Voting Begins"));
+	// Comments Recieving Frequency is 0.1 sec
+	GetWorld()->GetTimerManager().SetTimer(TimerHandle, this, &ATwitch::CountVote, 0.1f, true);
+	// Destroy Count Vote
+	GetWorld()->GetTimerManager().SetTimer(DestoryTimerHandle, this, &ATwitch::DestoryCountVote, 0.1f, false, VotingTime);
+}
+
+void ATwitch::CountVote()
+{
+	FString OutMessage;
+	if (ReceiveData(OutMessage))
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Orange, *OutMessage);
+	}
+}
+
+void ATwitch::DestoryCountVote()
+{
+	UE_LOG(LogTemp, Warning, TEXT("Voting has now ended"));
+	if (GetWorld())
+	{
+		GetWorld()->GetTimerManager().ClearTimer(TimerHandle);
+	}
+	GetWorld()->GetTimerManager().SetTimer(VotingTimerHandel, this, &ATwitch::VotingSystem, 0.1f, false, VotingCycle);
 }
 
 // Setup initial Info (twitch oauth, username and channel)
@@ -151,18 +191,18 @@ bool ATwitch::ReceiveData(FString& OutMessage) const
 	return false;
 }
 
-int ATwitch::DetectKeyWord(FString OptionOne, FString OptionTwo, FString Message) const
+void ATwitch::DetectKeyWord(FString OptionOne, FString OptionTwo, FString Message, int& result) const
 {
 	if (Message.Contains(OptionOne))
 	{
-		UE_LOG(LogTemp, Warning, TEXT("OP1"));
-		return 1;
+		result = 1;
+		return;
 	}
 	if (Message.Contains(OptionTwo))
 	{
-		UE_LOG(LogTemp, Warning, TEXT("OP2"));
-		return 2;
+		result = 2;
+		return;
 	}
-	return -1;
+	result = -1;
+	return;
 }
-
