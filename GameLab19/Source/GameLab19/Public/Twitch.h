@@ -49,8 +49,10 @@ public:
 	
 	void DestoryCountVote();
 
-	float VotingTime = 5.f;
+	UPROPERTY(EditAnywhere, Category = "Setup")
+	float VotingTime = 15.f;
 
+	UPROPERTY(EditAnywhere, Category = "Setup")
 	float VotingCycle = 10.f;
 
 protected:
