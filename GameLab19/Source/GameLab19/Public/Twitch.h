@@ -31,12 +31,12 @@ public:
 	void SetInitialInfo(const FString Oauth, const  FString Username, const FString Channel);
 
 	UFUNCTION(BlueprintCallable, Category = "Setup")
+	bool ConnectTwitchAPI();
+
 	bool Connect();
 
-	UFUNCTION(BlueprintCallable, Category = "Setup")
 	bool Authentication();
 
-	UFUNCTION(BlueprintCallable, Category = "Setup")
 	bool SendIRCMessage(FString _message);
 
 	bool ReceiveData(FString& OutMessage) const;

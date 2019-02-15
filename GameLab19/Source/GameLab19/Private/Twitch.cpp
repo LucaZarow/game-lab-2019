@@ -17,18 +17,27 @@ void ATwitch::BeginPlay()
 	Super::BeginPlay();
 	
 	VotingSystem();
-
-	//GetWorldTimerManager().SetTimer(SpawnTimer, this, &ATwitch::Test, SpawnTime, false);
 }
 
 // Called every frame
 void ATwitch::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+}
 
-	/*
+void ATwitch::VotingSystem()
+{
+	ConnectTwitchAPI();
+	UE_LOG(LogTemp, Warning, TEXT("Voting Begins"));
+	// Comments Recieving Frequency is 0.1 sec
+	GetWorld()->GetTimerManager().SetTimer(TimerHandle, this, &ATwitch::CountVote, 0.1f, true);
+	// Destroy Count Vote
+	GetWorld()->GetTimerManager().SetTimer(DestoryTimerHandle, this, &ATwitch::DestoryCountVote, 0.1f, false, VotingTime);
+}
+
+void ATwitch::CountVote()
+{
 	int result;
-	// If recieve a message, print to screen
 	FString OutMessage;
 	if (ReceiveData(OutMessage))
 	{
@@ -45,25 +54,6 @@ void ATwitch::Tick(float DeltaTime)
 			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Orange, *OutMessage);
 		}
 	}
-	*/
-}
-
-void ATwitch::VotingSystem()
-{
-	UE_LOG(LogTemp, Warning, TEXT("Voting Begins"));
-	// Comments Recieving Frequency is 0.1 sec
-	GetWorld()->GetTimerManager().SetTimer(TimerHandle, this, &ATwitch::CountVote, 0.1f, true);
-	// Destroy Count Vote
-	GetWorld()->GetTimerManager().SetTimer(DestoryTimerHandle, this, &ATwitch::DestoryCountVote, 0.1f, false, VotingTime);
-}
-
-void ATwitch::CountVote()
-{
-	FString OutMessage;
-	if (ReceiveData(OutMessage))
-	{
-		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Orange, *OutMessage);
-	}
 }
 
 void ATwitch::DestoryCountVote()
@@ -74,6 +64,17 @@ void ATwitch::DestoryCountVote()
 		GetWorld()->GetTimerManager().ClearTimer(TimerHandle);
 	}
 	GetWorld()->GetTimerManager().SetTimer(VotingTimerHandel, this, &ATwitch::VotingSystem, 0.1f, false, VotingCycle);
+
+	this->CurrentSocket->Close();
+}
+
+bool ATwitch::ConnectTwitchAPI()
+{
+	if (Connect())
+	{
+		return Authentication();
+	}
+	return false;
 }
 
 // Setup initial Info (twitch oauth, username and channel)
