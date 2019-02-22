@@ -28,23 +28,42 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	UFUNCTION(BlueprintCallable, Category = "Setup")
-		void SetInitialInfo(const FString Oauth, const  FString Username, const FString Channel);
+	void SetInitialInfo(const FString Oauth, const  FString Username, const FString Channel);
 
 	UFUNCTION(BlueprintCallable, Category = "Setup")
-		bool Connect();
+	bool ConnectTwitchAPI();
 
-	UFUNCTION(BlueprintCallable, Category = "Setup")
-		bool Authentication();
+	bool Connect();
 
-	UFUNCTION(BlueprintCallable, Category = "Setup")
-		bool SendIRCMessage(FString _message);
+	bool Authentication();
+
+	bool SendIRCMessage(FString _message);
 
 	bool ReceiveData(FString& OutMessage) const;
 
+	void DetectKeyWord(FString OptionOne, FString OptionTwo, FString Message, int& result) const;
+
+	void VotingSystem();
+
+	void CountVote(); 
+	
+	void DestoryCountVote();
+
+	UPROPERTY(EditAnywhere, Category = "Setup")
+	float VotingTime = 15.f;
+
+	UPROPERTY(EditAnywhere, Category = "Setup")
+	float VotingCycle = 10.f;
+
+protected:
+	FTimerHandle VotingTimerHandel;
+	FTimerHandle DestoryTimerHandle;
+	FTimerHandle TimerHandle;
 private:
 	bool InfoInitialized = false;
 	FString Oauth;
 	FString Username;
 	FString Channel;
 	FSocket* CurrentSocket;
+	bool VoteStart = false;
 };
