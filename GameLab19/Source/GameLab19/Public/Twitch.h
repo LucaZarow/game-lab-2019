@@ -33,6 +33,9 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Setup")
 	bool ConnectTwitchAPI();
 
+	UFUNCTION(BlueprintCallable, Category = "Voting")
+	void SetVotingItems(FString VotingItem1, FString VotingItem2, FString VotingItem3, FString VotingItem4, FString VotingItem5);
+
 	bool Connect();
 
 	bool Authentication();
@@ -41,7 +44,7 @@ public:
 
 	bool ReceiveData(FString& OutMessage) const;
 
-	void DetectKeyWord(FString OptionOne, FString OptionTwo, FString Message, int& result) const;
+	void DetectKeyWord(FString Message, FString& user, int& result) const;
 
 	void VotingSystem();
 
@@ -66,4 +69,11 @@ private:
 	FString Channel;
 	FSocket* CurrentSocket;
 	bool VoteStart = false;
+
+	FString VotingItem1;
+	FString VotingItem2;
+	FString VotingItem3;
+	FString VotingItem4;
+	FString VotingItem5;
+	bool ItemsInitialized = false;
 };

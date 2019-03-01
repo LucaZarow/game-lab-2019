@@ -24,6 +24,16 @@ void ATwitch::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 }
 
+void ATwitch::SetVotingItems(FString VotingItem1, FString VotingItem2, FString VotingItem3, FString VotingItem4, FString VotingItem5)
+{
+	this->VotingItem1 = VotingItem1;
+	this->VotingItem2 = VotingItem2;
+	this->VotingItem3 = VotingItem3;
+	this->VotingItem4 = VotingItem4;
+	this->VotingItem5 = VotingItem5;
+	ItemsInitialized = true;
+}
+
 void ATwitch::VotingSystem()
 {
 	ConnectTwitchAPI();
@@ -36,23 +46,67 @@ void ATwitch::VotingSystem()
 
 void ATwitch::CountVote()
 {
-	int result;
+	FString User;
+	int Result;
 	FString OutMessage;
 	if (ReceiveData(OutMessage))
 	{
 		// Vote result
-		DetectKeyWord("$OP1$", "$OP2$", OutMessage, result);
-		if (result == 1)
+		DetectKeyWord(OutMessage, User, Result);
+		if (Result == 1)
 		{
-			UE_LOG(LogTemp, Warning, TEXT("Result: %i"), result);
+			UE_LOG(LogTemp, Warning, TEXT("Result: %i"), Result);
 			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Orange, *OutMessage);
 		}
-		if (result == 2)
+		if (Result == 2)
 		{
-			UE_LOG(LogTemp, Warning, TEXT("Result: %i"), result);
+			UE_LOG(LogTemp, Warning, TEXT("Result: %i"), Result);
 			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Orange, *OutMessage);
 		}
 	}
+}
+
+void ATwitch::DetectKeyWord(FString Message, FString& User, int& Result) const
+{
+	TArray<FString> MessageArray = TArray<FString>();
+	Message.ParseIntoArray(MessageArray, TEXT(" "));
+	User = MessageArray[0];
+	Result = 0;
+
+	// Detect first keyword in user's message
+	int i = 3;
+	bool KeywordDetected = false;
+	while (i < MessageArray.Num() && KeywordDetected == false)
+	{
+		FString UserMessage = MessageArray[i].ToLower();
+		if (UserMessage.Contains(VotingItem1))
+		{
+			KeywordDetected = true;
+			Result = 1;
+		}
+		else if (UserMessage.Contains(VotingItem2))
+		{
+			KeywordDetected = true;
+			Result = 2;
+		}
+		else if (UserMessage.Contains(VotingItem3))
+		{
+			KeywordDetected = true;
+			Result = 3;
+		}
+		else if (UserMessage.Contains(VotingItem4))
+		{
+			KeywordDetected = true;
+			Result = 4;
+		}
+		else if (UserMessage.Contains(VotingItem5))
+		{
+			KeywordDetected = true;
+			Result = 5;
+		}
+		i++;
+	}
+	return;
 }
 
 void ATwitch::DestoryCountVote()
@@ -189,20 +243,4 @@ bool ATwitch::ReceiveData(FString& OutMessage) const
 	}
 
 	return false;
-}
-
-void ATwitch::DetectKeyWord(FString OptionOne, FString OptionTwo, FString Message, int& result) const
-{
-	if (Message.Contains(OptionOne))
-	{
-		result = 1;
-		return;
-	}
-	if (Message.Contains(OptionTwo))
-	{
-		result = 2;
-		return;
-	}
-	result = -1;
-	return;
 }
