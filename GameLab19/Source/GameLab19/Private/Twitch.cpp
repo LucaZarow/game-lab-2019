@@ -68,10 +68,17 @@ void ATwitch::CountVote()
 
 void ATwitch::DetectKeyWord(FString Message, FString& User, int& Result) const
 {
+	// Parse User Message
 	TArray<FString> MessageArray = TArray<FString>();
 	Message.ParseIntoArray(MessageArray, TEXT(" "));
-	User = MessageArray[0];
+	// Parse User Name
+	TArray<FString> UserParse = TArray<FString>();
+	const TCHAR* Delims[] = { TEXT(":"), TEXT("."), TEXT("!")};
+	MessageArray[0].ParseIntoArray(UserParse, Delims, 3);
+	User = UserParse[0];
 	Result = 0;
+
+	UE_LOG(LogTemp, Error, TEXT("User %s"), *User);
 
 	// Detect first keyword in user's message
 	int i = 3;
@@ -116,7 +123,7 @@ void ATwitch::DestoryCountVote()
 	{
 		GetWorld()->GetTimerManager().ClearTimer(TimerHandle);
 	}
-	GetWorld()->GetTimerManager().SetTimer(VotingTimerHandel, this, &ATwitch::VotingSystem, 0.1f, false, VotingCycle);
+	//GetWorld()->GetTimerManager().SetTimer(VotingTimerHandel, this, &ATwitch::VotingSystem, 0.1f, false, VotingCycle);
 
 	this->CurrentSocket->Close();
 }
