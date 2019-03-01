@@ -53,7 +53,7 @@ public:
 	void DestoryCountVote();
 
 	UPROPERTY(EditAnywhere, Category = "Setup")
-	float VotingTime = 15.f;
+	float VotingTime = 30.f;
 
 	UPROPERTY(EditAnywhere, Category = "Setup")
 	float VotingCycle = 10.f;
@@ -76,4 +76,7 @@ private:
 	FString VotingItem4;
 	FString VotingItem5;
 	bool ItemsInitialized = false;
+
+	TMap<FString, int32> VoteResults;
+	TArray<int32> VoteCounts;
 };

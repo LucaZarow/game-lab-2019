@@ -36,6 +36,7 @@ void ATwitch::SetVotingItems(FString VotingItem1, FString VotingItem2, FString V
 
 void ATwitch::VotingSystem()
 {
+	VoteCounts.Init(0, 5);
 	ConnectTwitchAPI();
 	UE_LOG(LogTemp, Warning, TEXT("Voting Begins"));
 	// Comments Recieving Frequency is 0.1 sec
@@ -47,21 +48,24 @@ void ATwitch::VotingSystem()
 void ATwitch::CountVote()
 {
 	FString User;
-	int Result;
+	int32 Result;
 	FString OutMessage;
 	if (ReceiveData(OutMessage))
 	{
-		// Vote result
+		// Parse String
 		DetectKeyWord(OutMessage, User, Result);
-		if (Result == 1)
+		
+		UE_LOG(LogTemp, Warning, TEXT("Result: %i"), Result);
+
+		if (!VoteResults.Contains(User) && Result != 0)
 		{
-			UE_LOG(LogTemp, Warning, TEXT("Result: %i"), Result);
-			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Orange, *OutMessage);
+			VoteResults.Emplace(User, Result);
+			VoteCounts[Result-1] += 1;
+			UE_LOG(LogTemp, Warning, TEXT("%s Votes option %i, total of %i people have voted option %i"), *User, Result, VoteCounts[Result - 1], Result);
 		}
-		if (Result == 2)
+		else if(Result != 0)
 		{
-			UE_LOG(LogTemp, Warning, TEXT("Result: %i"), Result);
-			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Orange, *OutMessage);
+			UE_LOG(LogTemp, Warning, TEXT("%s has voted"), *User);
 		}
 	}
 }
@@ -78,10 +82,8 @@ void ATwitch::DetectKeyWord(FString Message, FString& User, int& Result) const
 	User = UserParse[0];
 	Result = 0;
 
-	UE_LOG(LogTemp, Error, TEXT("User %s"), *User);
-
 	// Detect first keyword in user's message
-	int i = 3;
+	int32 i = 3;
 	bool KeywordDetected = false;
 	while (i < MessageArray.Num() && KeywordDetected == false)
 	{
@@ -126,6 +128,28 @@ void ATwitch::DestoryCountVote()
 	//GetWorld()->GetTimerManager().SetTimer(VotingTimerHandel, this, &ATwitch::VotingSystem, 0.1f, false, VotingCycle);
 
 	this->CurrentSocket->Close();
+
+	// Find the most voted option
+	int32 Index = FMath::RandRange(1, 5);
+	float MaxVal = -1;
+	for (int32 i = 0; i < 5; i++)
+	{
+		float Value = VoteCounts[i] + FMath::RandRange(-0.3f, 0.3f);
+		if (Value > MaxVal)
+		{
+			MaxVal = Value;
+			Index = i + 1;
+		}
+	}
+
+	if (MaxVal < 0.5)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("No one voted"));
+	}
+
+	UE_LOG(LogTemp, Warning, TEXT("Final result: Option %i"), Index);
+
+	VoteResults.Empty();
 }
 
 bool ATwitch::ConnectTwitchAPI()
