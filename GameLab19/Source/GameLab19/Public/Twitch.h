@@ -55,7 +55,7 @@ public:
 	void CountVote(); 
 	
 	UFUNCTION(BlueprintCallable, Category = "Voting")
-	void DestoryCountVote(int32& FinalResult);
+	void DestroyCountVote(int32& FinalResult);
 
 	UPROPERTY(EditAnywhere, Category = "Setup")
 	float VotingTime = 30.f;
