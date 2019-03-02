@@ -14,8 +14,6 @@ ATwitch::ATwitch()
 void ATwitch::BeginPlay()
 {
 	Super::BeginPlay();
-	
-	VotingSystem();
 }
 
 // Called every frame
@@ -34,15 +32,28 @@ void ATwitch::SetVotingItems(FString VotingItem1, FString VotingItem2, FString V
 	ItemsInitialized = true;
 }
 
-void ATwitch::VotingSystem()
+void ATwitch::StartVote()
 {
-	VoteCounts.Init(0, 5);
+	VoteCounts.Init(-1, 5);
+	if (RandomItemsGenerated == false)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("3 Random Items needs to be generated first"));
+		return;
+	}
+	VoteCounts[RandomItem1 - 1] = 0;
+	VoteCounts[RandomItem2 - 1] = 0;
+	VoteCounts[RandomItem3 - 1] = 0;
+
+	UE_LOG(LogTemp, Warning, TEXT("Op %i, Op %i, Op %i"), RandomItem1, RandomItem2, RandomItem3);
+
 	ConnectTwitchAPI();
 	UE_LOG(LogTemp, Warning, TEXT("Voting Begins"));
 	// Comments Recieving Frequency is 0.1 sec
 	GetWorld()->GetTimerManager().SetTimer(TimerHandle, this, &ATwitch::CountVote, 0.1f, true);
+
+	// Use Blueprint instead
 	// Destroy Count Vote
-	GetWorld()->GetTimerManager().SetTimer(DestoryTimerHandle, this, &ATwitch::DestoryCountVote, 0.1f, false, VotingTime);
+	//GetWorld()->GetTimerManager().SetTimer(DestoryTimerHandle, this, &ATwitch::DestoryCountVote, 0.1f, false, VotingTime);
 }
 
 void ATwitch::CountVote()
@@ -55,22 +66,22 @@ void ATwitch::CountVote()
 		// Parse String
 		DetectKeyWord(OutMessage, User, Result);
 		
-		UE_LOG(LogTemp, Warning, TEXT("Result: %i"), Result);
+		//UE_LOG(LogTemp, Warning, TEXT("Result: %i"), Result);
 
-		if (!VoteResults.Contains(User) && Result != 0)
+		if (!VoteResults.Contains(User) && (Result == RandomItem1 || Result == RandomItem2 || Result == RandomItem3))
 		{
 			VoteResults.Emplace(User, Result);
 			VoteCounts[Result-1] += 1;
 			UE_LOG(LogTemp, Warning, TEXT("%s Votes option %i, total of %i people have voted option %i"), *User, Result, VoteCounts[Result - 1], Result);
 		}
-		else if(Result != 0)
+		else if(Result == RandomItem1 || Result == RandomItem2 || Result == RandomItem3)
 		{
 			UE_LOG(LogTemp, Warning, TEXT("%s has voted"), *User);
 		}
 	}
 }
 
-void ATwitch::DetectKeyWord(FString Message, FString& User, int& Result) const
+void ATwitch::DetectKeyWord(FString Message, FString& User, int32& Result) const
 {
 	// Parse User Message
 	TArray<FString> MessageArray = TArray<FString>();
@@ -118,7 +129,7 @@ void ATwitch::DetectKeyWord(FString Message, FString& User, int& Result) const
 	return;
 }
 
-void ATwitch::DestoryCountVote()
+void ATwitch::DestoryCountVote(int32& FinalResult)
 {
 	UE_LOG(LogTemp, Warning, TEXT("Voting has now ended"));
 	if (GetWorld())
@@ -147,9 +158,11 @@ void ATwitch::DestoryCountVote()
 		UE_LOG(LogTemp, Warning, TEXT("No one voted"));
 	}
 
-	UE_LOG(LogTemp, Warning, TEXT("Final result: Option %i"), Index);
+	FinalResult = Index;
+	UE_LOG(LogTemp, Warning, TEXT("Final result: Option %i"), FinalResult);
 
 	VoteResults.Empty();
+	RandomItemsGenerated = false;
 }
 
 bool ATwitch::ConnectTwitchAPI()
@@ -171,6 +184,26 @@ void ATwitch::SetInitialInfo(FString Oauth, FString Username, FString Channel)
 	{
 		InfoInitialized = true;
 	}
+}
+
+bool ATwitch::GenerateRandomVotingItems(int32& OutItem1, int32& OutItem2, int32& OutItem3)
+{
+	// Generate 3 random voting Item
+	this->RandomItem1 = FMath::RandRange(1, 5);
+	OutItem1 = this->RandomItem1;
+	do
+	{
+		this->RandomItem2 = FMath::RandRange(1, 5);
+		OutItem2 = this->RandomItem2;
+	} while (this->RandomItem1 == this->RandomItem2);
+	do
+	{
+		this->RandomItem3 = FMath::RandRange(1, 5);
+		OutItem3 = this->RandomItem3;
+	} while (this->RandomItem3 == this->RandomItem2 && this->RandomItem3 != this->RandomItem1);
+
+	this->RandomItemsGenerated = true;
+	return true;
 }
 
 bool ATwitch::Connect()

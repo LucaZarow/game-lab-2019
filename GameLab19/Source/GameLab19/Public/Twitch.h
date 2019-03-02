@@ -36,6 +36,9 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Voting")
 	void SetVotingItems(FString VotingItem1, FString VotingItem2, FString VotingItem3, FString VotingItem4, FString VotingItem5);
 
+	UFUNCTION(BlueprintCallable, Category = "Voting")
+	bool GenerateRandomVotingItems(int32& OutItem1, int32& OutItem2, int32& OutItem3);
+
 	bool Connect();
 
 	bool Authentication();
@@ -46,17 +49,20 @@ public:
 
 	void DetectKeyWord(FString Message, FString& user, int& result) const;
 
-	void VotingSystem();
+	UFUNCTION(BlueprintCallable, Category = "Voting")
+	void StartVote();
 
 	void CountVote(); 
 	
-	void DestoryCountVote();
+	UFUNCTION(BlueprintCallable, Category = "Voting")
+	void DestoryCountVote(int32& FinalResult);
 
 	UPROPERTY(EditAnywhere, Category = "Setup")
 	float VotingTime = 30.f;
 
 	UPROPERTY(EditAnywhere, Category = "Setup")
 	float VotingCycle = 10.f;
+
 
 protected:
 	FTimerHandle VotingTimerHandel;
@@ -79,4 +85,10 @@ private:
 
 	TMap<FString, int32> VoteResults;
 	TArray<int32> VoteCounts;
+
+	int32 RandomItem1;
+	int32 RandomItem2;
+	int32 RandomItem3;
+
+	bool RandomItemsGenerated = false;
 };
