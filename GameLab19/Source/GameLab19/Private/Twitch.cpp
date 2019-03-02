@@ -129,7 +129,7 @@ void ATwitch::DetectKeyWord(FString Message, FString& User, int32& Result) const
 	return;
 }
 
-void ATwitch::DestoryCountVote(int32& FinalResult)
+void ATwitch::DestroyCountVote(int32& FinalResult)
 {
 	UE_LOG(LogTemp, Warning, TEXT("Voting has now ended"));
 	if (GetWorld())
@@ -161,6 +161,9 @@ void ATwitch::DestoryCountVote(int32& FinalResult)
 	FinalResult = Index;
 	UE_LOG(LogTemp, Warning, TEXT("Final result: Option %i"), FinalResult);
 
+	RandomItem1 = 0;
+	RandomItem2 = 0;
+	RandomItem3 = 0;
 	VoteResults.Empty();
 	RandomItemsGenerated = false;
 }
@@ -200,7 +203,7 @@ bool ATwitch::GenerateRandomVotingItems(int32& OutItem1, int32& OutItem2, int32&
 	{
 		this->RandomItem3 = FMath::RandRange(1, 5);
 		OutItem3 = this->RandomItem3;
-	} while (this->RandomItem3 == this->RandomItem2 && this->RandomItem3 != this->RandomItem1);
+	} while (this->RandomItem3 == this->RandomItem2 && this->RandomItem3 == this->RandomItem1);
 
 	this->RandomItemsGenerated = true;
 	return true;
