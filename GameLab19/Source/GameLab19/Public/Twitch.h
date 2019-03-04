@@ -63,12 +63,15 @@ public:
 	UPROPERTY(EditAnywhere, Category = "Setup")
 	float VotingCycle = 10.f;
 
+	UFUNCTION(BlueprintCallable, Category = "Voting")
+	bool CurrentVoteResult(int32& OutItem1Result, int32& OutItem2Result, int32& OutItem3Result);
+
 
 protected:
 	FTimerHandle VotingTimerHandel;
 	FTimerHandle DestoryTimerHandle;
 	FTimerHandle TimerHandle;
-private:
+
 	bool InfoInitialized = false;
 	FString Oauth;
 	FString Username;

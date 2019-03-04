@@ -168,6 +168,20 @@ void ATwitch::DestroyCountVote(int32& FinalResult)
 	RandomItemsGenerated = false;
 }
 
+bool ATwitch::CurrentVoteResult(int32 & OutItem1Result, int32 & OutItem2Result, int32 & OutItem3Result)
+{
+	if (RandomItemsGenerated == false)
+	{
+		return false;
+	}
+
+	OutItem1Result = VoteCounts[RandomItem1 - 1];
+	OutItem2Result = VoteCounts[RandomItem2 - 1];
+	OutItem3Result = VoteCounts[RandomItem3 - 1];
+
+	return true;
+}
+
 bool ATwitch::ConnectTwitchAPI()
 {
 	if (Connect())
@@ -203,7 +217,7 @@ bool ATwitch::GenerateRandomVotingItems(int32& OutItem1, int32& OutItem2, int32&
 	{
 		this->RandomItem3 = FMath::RandRange(1, 5);
 		OutItem3 = this->RandomItem3;
-	} while (this->RandomItem3 == this->RandomItem2 && this->RandomItem3 == this->RandomItem1);
+	} while (this->RandomItem3 == this->RandomItem2 || this->RandomItem3 == this->RandomItem1);
 
 	this->RandomItemsGenerated = true;
 	return true;
