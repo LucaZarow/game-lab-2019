@@ -1,1 +1,0 @@
-folder for character mesh files fbx, animation files fbx, textures, will be into seperate folders for each character
