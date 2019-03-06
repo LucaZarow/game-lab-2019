@@ -4,8 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
-#include "AiPerceptionFunctionLibrary.generated.h"
 #include "Classes/AIController.h"
+#include "AiPerceptionFunctionLibrary.generated.h"
 
 /**
  * 
