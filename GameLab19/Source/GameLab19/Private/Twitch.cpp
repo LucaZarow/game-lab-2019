@@ -34,6 +34,7 @@ void ATwitch::SetVotingItems(FString VotingItem1, FString VotingItem2, FString V
 
 void ATwitch::StartVote()
 {
+	VoteIsStart = true;
 	VoteCounts.Init(-1, 5);
 	if (RandomItemsGenerated == false)
 	{
@@ -166,11 +167,12 @@ void ATwitch::DestroyCountVote(int32& FinalResult)
 	RandomItem3 = 0;
 	VoteResults.Empty();
 	RandomItemsGenerated = false;
+	VoteIsStart = false;
 }
 
 bool ATwitch::CurrentVoteResult(int32 & OutItem1Result, int32 & OutItem2Result, int32 & OutItem3Result)
 {
-	if (RandomItemsGenerated == false)
+	if (RandomItemsGenerated == false || VoteIsStart == false)
 	{
 		return false;
 	}

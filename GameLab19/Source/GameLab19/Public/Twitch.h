@@ -94,4 +94,5 @@ protected:
 	int32 RandomItem3;
 
 	bool RandomItemsGenerated = false;
+	bool VoteIsStart = false;
 };
