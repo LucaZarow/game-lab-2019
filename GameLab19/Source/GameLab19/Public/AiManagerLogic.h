@@ -5,8 +5,6 @@
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
 #include "AiManagerLogic.generated.h"
-#include "Array.h"
-#include "BaseEnemy"
 
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
