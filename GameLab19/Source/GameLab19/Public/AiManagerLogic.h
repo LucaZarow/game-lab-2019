@@ -17,7 +17,6 @@ class GAMELAB19_API UAiManagerLogic : public UActorComponent
 public:	
 	// Sets default values for this component's properties
 	UAiManagerLogic();
-	TArray<BaseEnemy> archers;
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
