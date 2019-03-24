@@ -5,8 +5,6 @@
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
 #include "AiManagerLogic.generated.h"
-#include "Array.h"
-#include "BaseEnemy"
 
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
@@ -17,7 +15,6 @@ class GAMELAB19_API UAiManagerLogic : public UActorComponent
 public:	
 	// Sets default values for this component's properties
 	UAiManagerLogic();
-	TArray<BaseEnemy> archers;
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
